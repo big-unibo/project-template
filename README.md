@@ -4,6 +4,10 @@
 
 ## How to run the project
 
+- Change `rootProject.name` in `settings.gradle` accordingly to the project name
+- The project *must* build with Gradle (i.e., `.\gradlew` produces a successful build)
+- Once completed, `.\gradlew` creates `build\libs\*.jar` files. When executing Spark code, you can `spark-submit` the fat jar (i.e., `*-all.jar`)
+
 ## Project structure
 
     datasets/   -- where datasets are stored (heavy datasets cannot be committed)
