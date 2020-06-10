@@ -15,6 +15,24 @@
 
 Import this project as Gradle project (this is tested with IntelliJ IDEA).
 
+### Guidelines
+
+#### Code
+
+- Add as many *useful* comments as possible
+- Delete all *useless* code / resources
+- Test *early*, Test *often*, Test *everything* you can
+- Write a proper `README.md` (i.e., override this one) that explains:
+    - the project structure
+    - the algorithmic parameters
+    - how to run the project
+
+#### Dataset conventions
+
+- All datasets must be named as follows: `ProjectName-par1_val1-par2_val2-... .csv`
+- The only exception is for hive tables: `ProjectName__par1_val1__par2_val2__... .csv`
+- Schemas for trajectory databases: `(userid, trajectoryid, latitude, longitude, timestamp)` where `timestamp` is unix timestamp (i.e., seconds since 01/01/1970)
+
 ### Dependency management
 
 All Java/Scala dependencies must be managed through Gradle (`build.gradle`). See [here](https://docs.gradle.org/current/userguide/core_dependency_management.html).
