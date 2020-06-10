@@ -1,5 +1,7 @@
 # BIG - Standard project configuration (your repo name here)
 
+![build passing](https://travis-ci.org/big-unibo/experimental-project.svg?branch=master)
+
 ## How to run the project
 
 ## Project structure
