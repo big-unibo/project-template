@@ -6,7 +6,7 @@
 
 ## Project structure
 
-    datasets/   -- where datasets are stored
+    datasets/   -- where datasets are stored (heavy datasets cannot be committed)
     outputs/    -- where generated datasets are stored (should not be committed)
     results/    -- where experiment/thesis results are stored (must be committed)
     src/        -- source code
