@@ -1,4 +1,6 @@
 outputs/*.csv
+results/dummy.pdf
+
 # These are useless since we use gradle import
 .idea/
 .idea/artifacts
