@@ -6,7 +6,7 @@
 
 - Change `rootProject.name` in `settings.gradle` accordingly to the project name
 - The project *must* build with Gradle (i.e., `./gradlew` produces a successful build)
-- Once completed, `./gradlew` creates `build\libs\*.jar` files. When executing Spark code, you can `spark-submit` the fat jar (i.e., `*-all.jar`)
+- Once completed, `./gradlew` creates `build/libs/*.jar` files. When executing Spark code, you can `spark-submit` the fat jar (i.e., `*-all.jar`)
 
 ## Project structure
 
@@ -34,8 +34,9 @@ Import this project as Gradle project (this is tested with IntelliJ IDEA).
 
 #### Dataset conventions
 
-- All datasets must be named as follows: `ProjectName-par1_val1-par2_val2-... .csv`
-- The only exception is for hive tables: `ProjectName__par1_val1__par2_val2__... .csv`
+- All datasets must be named as follows: `ProjectName-par1_val1-...-parN_valN.csv`
+- The only exception is for hive tables: `ProjectName__par1_val1__...__parN_valN.csv`
+    - All Spark applications *must* read/write from/to `.csv` files as well as Hive tables
 - Schemas for trajectory databases: `(userid, trajectoryid, latitude, longitude, timestamp)` where `timestamp` is unix timestamp (i.e., seconds since 01/01/1970)
     - In `src/main/python/sample.py` you can find an example to transform an uncompliant dataset schema
 
