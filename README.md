@@ -36,6 +36,7 @@ Import this project as Gradle project (this is tested with IntelliJ IDEA).
 - All datasets must be named as follows: `ProjectName-par1_val1-par2_val2-... .csv`
 - The only exception is for hive tables: `ProjectName__par1_val1__par2_val2__... .csv`
 - Schemas for trajectory databases: `(userid, trajectoryid, latitude, longitude, timestamp)` where `timestamp` is unix timestamp (i.e., seconds since 01/01/1970)
+    - In `src/main/python/sample.py` you can find an example to transform an uncompliant dataset schema
 
 ### Dependency management
 
