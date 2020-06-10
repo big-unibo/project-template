@@ -1,0 +1,19 @@
+package it.unibo.big;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * An example of Java class
+ */
+public class HelloWorldJava {
+    private static final Logger L = LoggerFactory.getLogger(HelloWorldJava.class);
+
+    /**
+     * This is an Hello, World
+     * @param args arguments
+     */
+    public static void main(final String[] args) {
+        L.debug("Hello, world!");
+    }
+}
