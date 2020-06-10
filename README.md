@@ -5,8 +5,8 @@
 ## How to run the project
 
 - Change `rootProject.name` in `settings.gradle` accordingly to the project name
-- The project *must* build with Gradle (i.e., `.\gradlew` produces a successful build)
-- Once completed, `.\gradlew` creates `build\libs\*.jar` files. When executing Spark code, you can `spark-submit` the fat jar (i.e., `*-all.jar`)
+- The project *must* build with Gradle (i.e., `./gradlew` produces a successful build)
+- Once completed, `./gradlew` creates `build\libs\*.jar` files. When executing Spark code, you can `spark-submit` the fat jar (i.e., `*-all.jar`)
 
 ## Project structure
 
@@ -30,6 +30,7 @@ Import this project as Gradle project (this is tested with IntelliJ IDEA).
     - the project structure
     - the algorithmic parameters
     - how to run the project
+- Check the output of `./gradlew` to look for warnings (especially in code style)
 
 #### Dataset conventions
 
@@ -52,10 +53,10 @@ All Python dependencies must be managed through virtual environments. See [here]
     python -m venv venv
     pip install -r requirements.txt
 
-To activate venv in Windows (with bash shell)
+To activate venv in Windows (with bash shell; e.g., git bash)
 
     source venv/Scripts/activate
 
-To acivate venv in Linux
+To activate venv in Linux
 
     source venv/libs/activate
