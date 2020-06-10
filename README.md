@@ -11,6 +11,10 @@
     results/    -- where experiment/thesis results are stored (must be committed)
     src/        -- source code
 
+## Working on this project
+
+Import this project as Gradle project (this is tested with IntelliJ IDEA).
+
 ### Dependency management
 
 All Java/Scala dependencies must be managed through Gradle (`build.gradle`). See [here](https://docs.gradle.org/current/userguide/core_dependency_management.html).
