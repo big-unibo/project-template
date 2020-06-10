@@ -3,6 +3,7 @@ apply plugin: 'scala'
 apply plugin: 'idea' // 'eclipse'
 apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'scalaStyle'
+apply plugin: 'checkstyle'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8

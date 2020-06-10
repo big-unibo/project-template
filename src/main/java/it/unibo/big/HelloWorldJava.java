@@ -4,13 +4,16 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * An example of Java class
+ * An example of Java class.
  */
-public class HelloWorldJava {
+public final class HelloWorldJava {
     private static final Logger L = LoggerFactory.getLogger(HelloWorldJava.class);
 
+    private HelloWorldJava() {
+    }
+
     /**
-     * This is an Hello, World
+     * Hello, World.
      * @param args arguments
      */
     public static void main(final String[] args) {
