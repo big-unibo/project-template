@@ -76,13 +76,13 @@ dependencies {
     implementation("org.slf4j", "slf4j-api", "1.7.30")
     testCompileOnly("org.slf4j", "slf4j-simple", "1.7.30")
     // Uncomment these dependencies only if you are working with Spark
-    // implementation("org.apache.spark", "park-core_2.11", ".4.0-cdh6.2.0")
-    // implementation("org.apache.spark", "park-sql_2.11", ".4.0-cdh6.2.0")
-    // implementation("org.apache.spark", "park-hive_2.11", ".4.0-cdh6.2.0")
-    // implementation("org.apache.spark", "park-mllib_2.11", ".4.0-cdh6.2.0")
-    // implementation("org.datasyslab", "eospark", ".2.0")
-    // implementation("org.datasyslab", "eospark-sql_2.3", ".2.0")
-    // implementation("org.datasyslab", "eospark-viz_2.3", ".2.0")
+    // implementation("org.apache.spark", "spark-core_2.11", ".4.0-cdh6.2.0")
+    // implementation("org.apache.spark", "spark-sql_2.11", ".4.0-cdh6.2.0")
+    // implementation("org.apache.spark", "spark-hive_2.11", ".4.0-cdh6.2.0")
+    // implementation("org.apache.spark", "spark-mllib_2.11", ".4.0-cdh6.2.0")
+    // implementation("org.datasyslab", "geospark", ".2.0")
+    // implementation("org.datasyslab", "geospark-sql_2.3", ".2.0")
+    // implementation("org.datasyslab", "geospark-viz_2.3", ".2.0")
     testImplementation("junit", "junit", "4.12")
 }
 
