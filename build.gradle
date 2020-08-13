@@ -56,7 +56,7 @@ dependencies {
     implementation "org.datasyslab:geospark-sql_2.3:1.2.0"
     implementation "org.datasyslab:geospark-viz_2.3:1.2.0"
     testImplementation "org.scalatest:scalatest_2.11:2.2.4"
-    testImplementation "junit:junit:4.12"
+    testImplementation "junit:junit:4.13"
     // SPARK CLUSTER LIBRARIES
     // implementation "org.apache.spark:spark-core_2.11:2.4.0-cdh6.2.0"
     // implementation "org.apache.spark:spark-sql_2.11:2.4.0-cdh6.2.0"
