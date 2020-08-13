@@ -16,3 +16,7 @@ cache:
 
 script:
   - ./gradlew
+
+notifications:
+  email:
+    on_success: never
