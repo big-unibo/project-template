@@ -7,20 +7,20 @@ plugins {
     id 'com.github.maiflai.scalatest' version '0.26'
     id 'com.github.alisiikh.scalastyle' version '3.4.1'
 }
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 shadowJar { zip64 = true }
+
 javadoc { failOnError true }
+
 scalastyle {
     config = file("${projectDir}/config/scalastyle_config.xml")
-//    includeTestSourceDirectory = true
-//    source = "src/main/scala"
-//    testSource = "src/test/scala"
     verbose = true
-//    failOnViolation = false
     failOnWarning = false
 }
+
 // In this section you declare where to find the dependencies of your project
 repositories {
     jcenter()

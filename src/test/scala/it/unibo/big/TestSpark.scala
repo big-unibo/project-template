@@ -7,7 +7,7 @@ import org.scalatest._
 
 import scala.collection.mutable
 
-class CoreUnitTest extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll {
+class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll {
 
   @transient var sc: SparkContext = null
   @transient var hiveContext: HiveContext = null
