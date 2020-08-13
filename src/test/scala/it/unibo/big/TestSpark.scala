@@ -26,6 +26,10 @@ class CoreUnitTest extends FunSuite with BeforeAndAfterEach with BeforeAndAfterA
     sc.stop()
   }
 
+  test("foo") {
+    assert(1 == 1)
+  }
+
   test("Test spark context --- word count") {
     val quotesRDD = sc.parallelize(Seq("Courage is not simply one of the virtues, but the form of every virtue at the testing point",
       "We have a very active testing community which people don't often think about when you have open source",
