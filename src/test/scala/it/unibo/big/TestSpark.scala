@@ -7,7 +7,7 @@ import org.scalatest._
 
 import scala.collection.mutable
 
-class CoreUnitTest extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll {
+class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll {
 
   @transient var sc: SparkContext = null
   @transient var hiveContext: HiveContext = null
@@ -24,6 +24,10 @@ class CoreUnitTest extends FunSuite with BeforeAndAfterEach with BeforeAndAfterA
 
   override def afterAll(): Unit = {
     sc.stop()
+  }
+
+  test("foo") {
+    assert(1 == 1)
   }
 
   test("Test spark context --- word count") {
