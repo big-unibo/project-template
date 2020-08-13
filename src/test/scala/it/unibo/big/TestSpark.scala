@@ -1,10 +1,10 @@
 package it.unibo.big
 
+import org.apache.spark.SparkContext
 import org.apache.spark.serializer.KryoSerializer
 import org.apache.spark.sql.{Row, SQLContext, SparkSession}
-import org.apache.spark.sql.hive.HiveContext
-import org.apache.spark.{SparkConf, SparkContext}
-import org.datasyslab.geospark.serde.GeoSparkKryoRegistrator
+import org.datasyslab.geosparksql.utils.GeoSparkSQLRegistrator
+import org.datasyslab.geosparkviz.core.Serde.GeoSparkVizKryoRegistrator
 import org.scalatest._
 
 import scala.collection.mutable
@@ -24,10 +24,10 @@ class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll 
       .config("spark.io.compression.codec", "lzf")
       // Enable GeoSpark custom Kryo serializer
       .config("spark.serializer", classOf[KryoSerializer].getName)
-      .config("spark.kryo.registrator", classOf[GeoSparkKryoRegistrator].getName)
+      .config("spark.kryo.registrator", classOf[GeoSparkVizKryoRegistrator].getName)
       .enableHiveSupport()
       .getOrCreate()
-
+    GeoSparkSQLRegistrator.registerAll(sparkSession)
     sc = sparkSession.sparkContext
     hiveContext = sparkSession.sqlContext
   }
