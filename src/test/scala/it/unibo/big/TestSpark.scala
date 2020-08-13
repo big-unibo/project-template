@@ -22,8 +22,7 @@ class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll 
       .config("spark.shuffle.compress", "false")
       .config("spark.shuffle.spill.compress", "false")
       .config("spark.io.compression.codec", "lzf")
-      // Enable GeoSpark custom Kryo serializer
-      .config("spark.serializer", classOf[KryoSerializer].getName)
+      .config("spark.serializer", classOf[KryoSerializer].getName) // Enable GeoSpark custom Kryo serializer
       .config("spark.kryo.registrator", classOf[GeoSparkVizKryoRegistrator].getName)
       .enableHiveSupport()
       .getOrCreate()
@@ -36,10 +35,6 @@ class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll 
     sc.stop()
   }
 
-  test("foo") {
-    assert(1 == 1)
-  }
-
   test("Test spark context --- word count") {
     val quotesRDD = sc.parallelize(Seq("Courage is not simply one of the virtues, but the form of every virtue at the testing point",
       "We have a very active testing community which people don't often think about when you have open source",
@@ -50,9 +45,9 @@ class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll 
     val wordMap = new mutable.HashMap[String, Int]()
     wordCountRDD.take(100).foreach { case (word, count) => wordMap.put(word, count) }
     // Note this is better then foreach(r => wordMap.put(r._1, r._2)
-    assert(wordMap.get("to").get == 4, "The word count for 'to' should had been 4 but it was " + wordMap.get("to").get)
-    assert(wordMap.get("testing").get == 5, "The word count for 'testing' should had been 5 but it was " + wordMap.get("testing").get)
-    assert(wordMap.get("is").get == 1, "The word count for 'is' should had been 1 but it was " + wordMap.get("is").get)
+    assert(wordMap("to") == 4, "The word count for 'to' should had been 4 but it was " + wordMap("to"))
+    assert(wordMap("testing") == 5, "The word count for 'testing' should had been 5 but it was " + wordMap("testing"))
+    assert(wordMap("is") == 1, "The word count for 'is' should had been 1 but it was " + wordMap("is"))
   }
 
   test("Test hive context --- table creation and summing of counts") {
@@ -71,7 +66,7 @@ class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll 
     assert(localAgeSum(0).get(0) == 62, "The sum of age should equal 62 but it equaled " + localAgeSum(0).get(0))
   }
 
-  test("Test Geospark") {
+  test("Test Geospark -- running spatial SQL") {
     val df = hiveContext.sql("SELECT ST_Distance(ST_PolygonFromEnvelope(1.0,100.0,1000.0,1100.0), ST_PolygonFromEnvelope(1.0,100.0,1000.0,1100.0))")
     val localDf = df.take(10)
     assert(localDf(0).get(0) == 0, "The distance should equal 0 but it equaled " + localDf(0).get(0))
