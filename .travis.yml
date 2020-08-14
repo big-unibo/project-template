@@ -1,19 +1,23 @@
 language: java
-dist: bionic
+dist: trusty
 
-jobs:
+# os:
+#   - linux
+#   - osx
+# jdk:
+#   - openjdk9
+#   - openjdk10
+#   - openjdk11
+#   - openjdk-ea
+#   - oraclejdk-ea
+
+matrix:
   include:
     - os: linux
-      dist: bionic
+      jdk: openjdk8
+  allow_failures:
     - os: osx
-      osx_image: xcode9.3
-# OSX: While Mac jobs can test against multiple JDK versions using the jdk key,
-# macOS images up to xcode9.3 can only switch up to Java 8, and
-# images xcode9.4 and later can switch to Java 10 (if pre-installed) and later
-
-jdk:
-  # - oraclejdk8 not supported by oracle
-  - openjdk8
+      jdk: oraclejdk8
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
