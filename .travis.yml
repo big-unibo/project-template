@@ -11,13 +11,16 @@ dist: trusty
 #   - openjdk-ea
 #   - oraclejdk-ea
 
-matrix:
+jobs:
   include:
     - os: linux
       jdk: openjdk8
   allow_failures:
     - os: osx
       jdk: oraclejdk8
+# OSX: While Mac jobs can test against multiple JDK versions using the jdk key,
+# macOS images up to xcode9.3 can only switch up to Java 8, and
+# images xcode9.4 and later can switch to Java 10 (if pre-installed) and later
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
