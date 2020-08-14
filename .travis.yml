@@ -1,5 +1,4 @@
 language: java
-install: true
 dist: bionic
 
 jobs:
@@ -13,7 +12,7 @@ jobs:
 # images xcode9.4 and later can switch to Java 10 (if pre-installed) and later
 
 jdk:
-  - oraclejdk8
+  # - oraclejdk8 not supported by oracle
   - openjdk8
 
 before_cache:
