@@ -1,9 +1,14 @@
 language: scala
 install: true
 
-os: linux
-dist: trusty
-jdk: oraclejdk8
+jobs:
+  include:
+    - os: linux
+      dist: trusty
+    - os: osx
+jdk:
+  - oraclejdk8
+  - openjdk8
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
