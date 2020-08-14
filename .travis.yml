@@ -15,7 +15,6 @@ jobs:
   include:
     - os: linux
       jdk: openjdk8
-  allow_failures:
     - os: osx
       jdk: oraclejdk8
 # OSX: While Mac jobs can test against multiple JDK versions using the jdk key,
