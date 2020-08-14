@@ -4,9 +4,13 @@ install: true
 jobs:
   include:
     - os: linux
-      dist: trusty
+      dist: bionic
     - os: osx
       osx_image: xcode9.3
+# OSX: While Mac jobs can test against multiple JDK versions using the jdk key,
+# macOS images up to xcode9.3 can only switch up to Java 8, and
+# images xcode9.4 and later can switch to Java 10 (if pre-installed) and later
+
 jdk:
   - oraclejdk8
   - openjdk8
