@@ -2,7 +2,7 @@ plugins {
     id 'java-library'
     id 'scala'
     id 'idea'
-    id 'com.github.johnrengelman.shadow' version '5.2.0'
+    id 'com.github.johnrengelman.shadow' version '6.0.0'
     id 'checkstyle'
     id 'com.github.maiflai.scalatest' version '0.26'
     id 'com.github.alisiikh.scalastyle' version '3.4.1'
@@ -43,7 +43,7 @@ dependencies {
     implementation "org.scala-lang:scala-compiler:2.11.12"
     implementation "org.slf4j:slf4j-api:1.7.30"
     testCompileOnly "org.slf4j:slf4j-simple:1.7.30"
-    implementation "org.apache.spark:spark-core_2.11:2.4.0-cdh6.2.0"
+    implementation "org.apache.spark:spark-core_2.11:2.4.6"
     implementation "org.apache.spark:spark-sql_2.11:2.4.6"
     implementation "org.apache.spark:spark-hive_2.11:2.4.6"
     implementation "org.apache.spark:spark-mllib_2.11:2.4.6"
