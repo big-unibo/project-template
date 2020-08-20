@@ -13,8 +13,7 @@ install:
   - echo "$TRAVIS_OS_NAME";
     if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then
       mkdir -p /c/hadoop/bin;
-      chmod 777 /c/hadoop/bin;
-      wget --no-check-certificate https://github.com/cdarlint/winutils/raw/master/hadoop-2.7.3/bin/winutils.exe -o /c/hadoop/bin;
+      sudo wget --no-check-certificate https://github.com/cdarlint/winutils/raw/master/hadoop-2.7.3/bin/winutils.exe -o /c/hadoop/bin;
       ls /c/hadoop/bin;
       export HADOOP_HOME=/c/hadoop;
       export PATH=/c/hadoop/bin:$PATH;
