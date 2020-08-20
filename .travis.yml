@@ -3,8 +3,8 @@
 language: minimal
 # Enable them all, if you need them.
 os:
-  - linux
-  - osx
+  # - linux
+  # - osx
   - windows
 jobs:
   allow_failures:
@@ -18,9 +18,9 @@ install:
       setx HADOOP_HOME "C:\hadoop";
       setx PATH "%PATH%;%HADOOP_HOME%\bin";
       echo %PATH:;=&echo.%
-      # export HADOOP_HOME=/c/hadoop;
-      # export PATH=/c/hadoop/bin:$PATH;
     fi
+    # export HADOOP_HOME=/c/hadoop;
+    # export PATH=/c/hadoop/bin:$PATH;
 env:
   global:
     # Convenience variables for shortening commands
