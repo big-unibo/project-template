@@ -24,7 +24,8 @@ env:
 before_install:
   - if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then
       mkdir -p /C/hadoop/bin;
-      wget -v --no-check-certificate https://github.com/cdarlint/winutils/raw/master/hadoop-2.7.3/bin/winutils.exe -o /C/hadoop/bin;
+      chmod 777 /C/hadoop/bin;
+      wget -v --no-check-certificate https://github.com/cdarlint/winutils/raw/master/hadoop-2.7.3/bin/winutils.exe -o /C/hadoop/bin/;
       ls /C/hadoop;
       ls /C/hadoop/bin;
       export HADOOP_HOME=/C/hadoop;
