@@ -12,11 +12,9 @@ jobs:
 install:
   - echo "$TRAVIS_OS_NAME";
     if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then
-      echo "I am in!";
       mkdir -p /c/hadoop/bin;
-      echo "I am in 1!";
+      chmod 777 /c/hadoop/bin;
       wget --no-check-certificate https://github.com/cdarlint/winutils/raw/master/hadoop-2.7.3/bin/winutils.exe -o /c/hadoop/bin;
-      echo "I am in 2!";
       ls /c/hadoop/bin;
       export HADOOP_HOME=/c/hadoop;
       export PATH=/c/hadoop/bin:$PATH;
