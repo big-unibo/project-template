@@ -3,8 +3,8 @@
 language: minimal
 # Enable them all, if you need them.
 os:
-  # - linux
-  # - osx
+  - linux
+  - osx
   - windows
 jobs:
   allow_failures:
@@ -18,6 +18,7 @@ env:
     # List any JDK you want to build your software with.
     # You can see the list of supported environments by installing Jabba and using ls-remote:
     # https://github.com/shyiko/jabba#usage
+    - JDK="1.8"
     - JDK="adopt-openj9@1.8.0-252"
     - JDK="amazon-corretto@1.8.252-09.1"
     - JDK="adopt@1.8.0-252"
@@ -26,11 +27,8 @@ before_install:
       mkdir -p /C/hadoop/bin;
       chmod 777 /C/hadoop/bin;
       wget -v --no-check-certificate https://github.com/cdarlint/winutils/raw/master/hadoop-2.7.3/bin/winutils.exe -P /C/hadoop/bin;
-      ls /C/hadoop;
-      ls /C/hadoop/bin;
       export HADOOP_HOME=/C/hadoop;
       export PATH=$HADOOP_HOME/bin:$PATH;
-      echo "Done.";
     fi
   # Check out the script set
   - travis_retry git clone --depth 1 $GRAVIS_REPO $GRAVIS
