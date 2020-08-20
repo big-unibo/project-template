@@ -16,11 +16,10 @@ install:
       echo "we got here";
       dir C:\hadoop\bin;
       setx HADOOP_HOME "C:\hadoop";
+      echo "we got here 1";
       setx PATH "%PATH%;%HADOOP_HOME%\bin";
-      echo %PATH:;=&echo.%
+      echo %PATH
     fi
-    # export HADOOP_HOME=/c/hadoop;
-    # export PATH=/c/hadoop/bin:$PATH;
 env:
   global:
     # Convenience variables for shortening commands
