@@ -3,8 +3,8 @@
 language: minimal
 # Enable them all, if you need them.
 os:
-  - linux
-  - osx
+  # - linux
+  # - osx
   - windows
 jobs:
   allow_failures:
@@ -12,8 +12,10 @@ jobs:
 install:
   - echo "$TRAVIS_OS_NAME";
     if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then
-      mkdir -p C:\hadoop\bin;
+      mkdir C:\hadoop\bin;
       wget --no-check-certificate https://github.com/cdarlint/winutils/raw/master/hadoop-2.7.3/bin/winutils.exe -o C:\hadoop\bin;
+      echo "we got here";
+      dir C:\hadoop\bin
       export HADOOP_HOME=/c/hadoop;
       export PATH=/c/hadoop/bin:$PATH;
     fi
