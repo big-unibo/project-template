@@ -15,10 +15,6 @@ install:
       wget --no-check-certificate https://github.com/cdarlint/winutils/raw/master/hadoop-2.7.3/bin/winutils.exe -o C:\hadoop\bin;
       echo "we got here";
       dir C:\hadoop\bin;
-      setx HADOOP_HOME "C:\hadoop";
-      echo "we got here 1";
-      setx PATH "%PATH%;%HADOOP_HOME%\bin";
-      echo %PATH
     fi
 env:
   global:
