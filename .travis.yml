@@ -9,16 +9,6 @@ os:
 jobs:
   allow_failures:
     - os: windows
-install:
-  - if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then
-      mkdir -p /C/hadoop/bin;
-      wget -v --no-check-certificate https://github.com/cdarlint/winutils/raw/master/hadoop-2.7.3/bin/winutils.exe -o /C/hadoop/bin;
-      ls /C/hadoop;
-      ls /C/hadoop/bin;
-      export HADOOP_HOME=/C/hadoop;
-      export PATH=$HADOOP_HOME/bin:$PATH;
-      echo "Done.";
-    fi
 env:
   global:
     # Convenience variables for shortening commands
@@ -32,6 +22,15 @@ env:
     - JDK="amazon-corretto@1.8.252-09.1"
     - JDK="adopt@1.8.0-252"
 before_install:
+  - if [[ "$TRAVIS_OS_NAME" == "windows" ]]; then
+      mkdir -p /C/hadoop/bin;
+      wget -v --no-check-certificate https://github.com/cdarlint/winutils/raw/master/hadoop-2.7.3/bin/winutils.exe -o /C/hadoop/bin;
+      ls /C/hadoop;
+      ls /C/hadoop/bin;
+      export HADOOP_HOME=/C/hadoop;
+      export PATH=$HADOOP_HOME/bin:$PATH;
+      echo "Done.";
+    fi
   # Check out the script set
   - travis_retry git clone --depth 1 $GRAVIS_REPO $GRAVIS
   # Install the JDK you configured in the $JDK environment variable
