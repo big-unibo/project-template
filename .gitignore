@@ -1,5 +1,6 @@
 outputs/*.csv
 results/dummy.pdf
+metastore_db/
 
 # These are useless since we use gradle import
 .idea/
