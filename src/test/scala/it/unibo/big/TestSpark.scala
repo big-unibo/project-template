@@ -1,25 +1,34 @@
 package it.unibo.big
 
-import org.apache.spark.sql.Row
-import org.apache.spark.sql.hive.HiveContext
-import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.SparkContext
+import org.apache.spark.serializer.KryoSerializer
+import org.apache.spark.sql.{Row, SQLContext, SparkSession}
+import org.datasyslab.geosparksql.utils.GeoSparkSQLRegistrator
+import org.datasyslab.geosparkviz.core.Serde.GeoSparkVizKryoRegistrator
 import org.scalatest._
 
 import scala.collection.mutable
 
 class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll {
 
-  @transient var sc: SparkContext = null
-  @transient var hiveContext: HiveContext = null
+  @transient var sc: SparkContext = _
+  @transient var hiveContext: SQLContext = _
 
   override def beforeAll(): Unit = {
-    val sparkConfig = new SparkConf()
-    sparkConfig.set("spark.broadcast.compress", "false")
-    sparkConfig.set("spark.shuffle.compress", "false")
-    sparkConfig.set("spark.shuffle.spill.compress", "false")
-    sparkConfig.set("spark.io.compression.codec", "lzf")
-    sc = new SparkContext("local[2]", "unit test", sparkConfig)
-    hiveContext = new HiveContext(sc)
+    val sparkSession = SparkSession.builder()
+      .master("local[2]") // Delete this if run in cluster mode
+      .appName("unit test") // Change this to a proper name
+      .config("spark.broadcast.compress", "false")
+      .config("spark.shuffle.compress", "false")
+      .config("spark.shuffle.spill.compress", "false")
+      .config("spark.io.compression.codec", "lzf")
+      .config("spark.serializer", classOf[KryoSerializer].getName) // Enable GeoSpark custom Kryo serializer
+      .config("spark.kryo.registrator", classOf[GeoSparkVizKryoRegistrator].getName)
+      .enableHiveSupport()
+      .getOrCreate()
+    GeoSparkSQLRegistrator.registerAll(sparkSession)
+    sc = sparkSession.sparkContext
+    hiveContext = sparkSession.sqlContext
   }
 
   override def afterAll(): Unit = {
@@ -40,9 +49,9 @@ class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll 
     val wordMap = new mutable.HashMap[String, Int]()
     wordCountRDD.take(100).foreach { case (word, count) => wordMap.put(word, count) }
     // Note this is better then foreach(r => wordMap.put(r._1, r._2)
-    assert(wordMap.get("to").get == 4, "The word count for 'to' should had been 4 but it was " + wordMap.get("to").get)
-    assert(wordMap.get("testing").get == 5, "The word count for 'testing' should had been 5 but it was " + wordMap.get("testing").get)
-    assert(wordMap.get("is").get == 1, "The word count for 'is' should had been 1 but it was " + wordMap.get("is").get)
+    assert(wordMap("to") == 4, "The word count for 'to' should had been 4 but it was " + wordMap("to"))
+    assert(wordMap("testing") == 5, "The word count for 'testing' should had been 5 but it was " + wordMap("testing"))
+    assert(wordMap("is") == 1, "The word count for 'is' should had been 1 but it was " + wordMap("is"))
   }
 
   test("Test hive context --- table creation and summing of counts") {
@@ -59,5 +68,11 @@ class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll 
     val ageSumDataFrame = hiveContext.sql("select sum(age) from tempPerson")
     val localAgeSum = ageSumDataFrame.take(10)
     assert(localAgeSum(0).get(0) == 62, "The sum of age should equal 62 but it equaled " + localAgeSum(0).get(0))
+  }
+
+  test("Test Geospark -- running spatial SQL") {
+    val df = hiveContext.sql("SELECT ST_Distance(ST_PolygonFromEnvelope(1.0,100.0,1000.0,1100.0), ST_PolygonFromEnvelope(1.0,100.0,1000.0,1100.0))")
+    val localDf = df.take(10)
+    assert(localDf(0).get(0) == 0, "The distance should equal 0 but it equaled " + localDf(0).get(0))
   }
 }
