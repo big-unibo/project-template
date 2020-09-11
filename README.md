@@ -4,7 +4,7 @@
 
 ## How to run the project
 
-- Change `rootProject.name` in `settings.gradle.kts` accordingly to the project name
+- Change `rootProject.name` in `settings.gradle` accordingly to the project name
 - The project *must* build with Gradle (i.e., `./gradlew` produces a successful build)
 - Once completed, `./gradlew` creates `build/libs/*.jar` files. To execute Spark code
     - If *no* external library is needed, `spark-submit` the jar (i.e., `project-name.jar`)
@@ -44,7 +44,7 @@ Import this project as Gradle project (this is tested with IntelliJ IDEA).
 
 ### Dependency management
 
-All Java/Scala dependencies must be managed through Gradle (`build.gradle.kts`). See [here](https://docs.gradle.org/current/userguide/core_dependency_management.html).
+All Java/Scala dependencies must be managed through Gradle (`build.gradle`). See [here](https://docs.gradle.org/current/userguide/core_dependency_management.html).
 
 > Software projects rarely work in isolation. In most cases, a project relies on reusable functionality in the form of libraries or is broken up into individual components to compose a modularized system. Dependency management is a technique for declaring, resolving and using dependencies required by the project in an automated fashion. Gradle has built-in support for dependency management and lives up to the task of fulfilling typical scenarios encountered in modern software projects. 
 
@@ -62,4 +62,4 @@ To activate venv in Windows (with bash shell; e.g., git bash)
 
 To activate venv in Linux
 
-    source venv/libs/activate
+    source venv/bin/activate
