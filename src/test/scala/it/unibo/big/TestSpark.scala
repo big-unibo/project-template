@@ -62,7 +62,7 @@ class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll 
         Row("andrew", 9, "green") //
       )
     )
-    hiveContext.sql("create table person (name string, age int, color string)")
+    hiveContext.sql("create table if not exists person (name string, age int, color string)")
     val emptyDataFrame = hiveContext.sql("select * from person limit 0") // get the table schema without writing it by hand
     hiveContext.createDataFrame(personRDD, emptyDataFrame.schema).createOrReplaceTempView("tempPerson")
     val ageSumDataFrame = hiveContext.sql("select sum(age) from tempPerson")
