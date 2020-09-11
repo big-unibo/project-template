@@ -27,6 +27,7 @@ before_install:
       mkdir -p /C/hadoop/bin;
       chmod 777 /C/hadoop/bin;
       wget -v --no-check-certificate https://github.com/cdarlint/winutils/raw/master/hadoop-2.7.3/bin/winutils.exe -P /C/hadoop/bin;
+      wget -v --no-check-certificate https://github.com/cdarlint/winutils/raw/master/hadoop-2.7.3/bin/hadoop.dll -P /C/hadoop/bin;
       export HADOOP_HOME=/C/hadoop;
       export PATH=$HADOOP_HOME/bin:$PATH;
     fi
