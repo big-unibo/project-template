@@ -5,16 +5,17 @@ import org.apache.spark.serializer.KryoSerializer
 import org.apache.spark.sql.{Row, SQLContext, SparkSession}
 import org.datasyslab.geosparksql.utils.GeoSparkSQLRegistrator
 import org.datasyslab.geosparkviz.core.Serde.GeoSparkVizKryoRegistrator
-import org.scalatest._
+import org.junit.jupiter.api.{AfterEach, BeforeEach, Test}
 
 import scala.collection.mutable
 
-class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll {
+class TestSpark {
 
   @transient var sc: SparkContext = _
   @transient var hiveContext: SQLContext = _
 
-  override def beforeAll(): Unit = {
+  @BeforeEach
+  def beforeAll(): Unit = {
     val sparkSession = SparkSession.builder()
       .master("local[2]") // Delete this if run in cluster mode
       .appName("unit test") // Change this to a proper name
@@ -31,15 +32,19 @@ class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll 
     hiveContext = sparkSession.sqlContext
   }
 
-  override def afterAll(): Unit = {
+  @AfterEach
+  def afterAll(): Unit = {
     sc.stop()
   }
 
-  test("foo") {
+  @Test
+  def test() {
     assert(1 == 1)
+    assert(1.0 == 1)
   }
 
-  test("Test spark context --- word count") {
+  @Test
+  def `Test spark context --- word count` {
     val quotesRDD = sc.parallelize(Seq("Courage is not simply one of the virtues, but the form of every virtue at the testing point",
       "We have a very active testing community which people don't often think about when you have open source",
       "Program testing can be used to show the presence of bugs, but never to show their absence",
@@ -54,7 +59,8 @@ class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll 
     assert(wordMap("is") == 1, "The word count for 'is' should had been 1 but it was " + wordMap("is"))
   }
 
-  test("Test hive context --- table creation and summing of counts") {
+  @Test
+  def `Test hive context --- table creation and summing of counts` {
     val personRDD = sc.parallelize( //
       Seq( //
         Row("ted", 42, "blue"), //
@@ -62,7 +68,8 @@ class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll 
         Row("andrew", 9, "green") //
       )
     )
-    hiveContext.sql("create table if not exists person (name string, age int, color string)")
+    hiveContext.sql("drop table if exists person")
+    hiveContext.sql("create table person (name string, age int, color string)")
     val emptyDataFrame = hiveContext.sql("select * from person limit 0") // get the table schema without writing it by hand
     hiveContext.createDataFrame(personRDD, emptyDataFrame.schema).createOrReplaceTempView("tempPerson")
     val ageSumDataFrame = hiveContext.sql("select sum(age) from tempPerson")
@@ -70,7 +77,8 @@ class TestSpark extends FunSuite with BeforeAndAfterEach with BeforeAndAfterAll 
     assert(localAgeSum(0).get(0) == 62, "The sum of age should equal 62 but it equaled " + localAgeSum(0).get(0))
   }
 
-  test("Test Geospark -- running spatial SQL") {
+  @Test
+  def `Test Geospark -- running spatial SQL` {
     val df = hiveContext.sql("SELECT ST_Distance(ST_PolygonFromEnvelope(1.0,100.0,1000.0,1100.0), ST_PolygonFromEnvelope(1.0,100.0,1000.0,1100.0))")
     val localDf = df.take(10)
     assert(localDf(0).get(0) == 0, "The distance should equal 0 but it equaled " + localDf(0).get(0))

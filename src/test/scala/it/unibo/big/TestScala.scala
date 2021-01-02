@@ -1,7 +1,7 @@
 package it.unibo.big
 
-import org.junit.Assert.{assertEquals, assertFalse}
-import org.junit.Test
+import org.junit.jupiter.api.Assertions.{assertEquals, assertFalse}
+import org.junit.jupiter.api.Test
 
 class TestScala {
   @Test def test(): Unit = {
