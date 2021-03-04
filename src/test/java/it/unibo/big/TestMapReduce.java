@@ -5,21 +5,19 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mrunit.mapreduce.MapDriver;
+import org.apache.hadoop.mrunit.mapreduce.MapReduceDriver;
+import org.apache.hadoop.mrunit.mapreduce.ReduceDriver;
+import org.apache.hadoop.mrunit.types.Pair;
 import org.junit.jupiter.api.Test;
-import org.mockito.InOrder;
 
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.List;
 import java.util.StringTokenizer;
 
-import static org.junit.jupiter.api.Assertions.fail;
-import static org.mockito.Mockito.*;
-
 public class TestMapReduce {
-    private final static IntWritable one = new IntWritable(1);
 
-    public class WordCountMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+    public static class WordCountMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
         protected Text word = new Text();
 
         @Override
@@ -28,12 +26,12 @@ public class TestMapReduce {
             StringTokenizer tokenizer = new StringTokenizer(line);
             while (tokenizer.hasMoreTokens()) {
                 word.set(tokenizer.nextToken());
-                context.write(word, one);
+                context.write(word, new IntWritable(1));
             }
         }
     }
 
-    public class WordCountReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
+    public static class WordCountReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
         @Override
         protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
             int sum = 0;
@@ -45,45 +43,37 @@ public class TestMapReduce {
     }
 
     @Test
-    public void testReducer() {
-        try {
-            WordCountReducer reducer = new WordCountReducer();
-            Reducer.Context context = mock(Reducer.Context.class);
-            List<IntWritable> values = Arrays.asList(new IntWritable(1), new IntWritable(4), new IntWritable(7));
-            reducer.reduce(new Text("foo"), values, context);
-            verify(context).write(new Text("foo"), new IntWritable(12));
-        } catch (Exception e) {
-            fail(e.getMessage());
-        }
+    public void mapperBreakesTheRecord() throws IOException {
+        new MapDriver<LongWritable, Text, Text, IntWritable>()
+                .withMapper(new WordCountMapper())
+                .withInput(new LongWritable(0), new Text("msg1 msg2 msg1"))
+                .withAllOutput(Arrays.asList(
+                        new Pair<>(new Text("msg1"), new IntWritable(1)),
+                        new Pair<>(new Text("msg2"), new IntWritable(1)),
+                        new Pair<>(new Text("msg1"), new IntWritable(1))
+                ))
+                .runTest();
     }
 
     @Test
-    public void testMapper() {
-        try {
-            WordCountMapper mapper = new WordCountMapper();
-            Mapper.Context context = mock(Mapper.Context.class);
-            mapper.word = mock(Text.class);
-
-            mapper.map(new LongWritable(1L), new Text("foo"), context);
-
-            InOrder inOrder = inOrder(mapper.word, context);
-            assertCountedOnce(mapper, context, inOrder, "foo");
-
-            mapper.map(new LongWritable(1L), new Text("one two three four"), context);
-
-            inOrder = inOrder(mapper.word, context, mapper.word, context, mapper.word, context, mapper.word, context);
-
-            assertCountedOnce(mapper, context, inOrder, "one");
-            assertCountedOnce(mapper, context, inOrder, "two");
-            assertCountedOnce(mapper, context, inOrder, "three");
-            assertCountedOnce(mapper, context, inOrder, "four");
-        } catch (Exception e) {
-            fail(e.getMessage());
-        }
+    public void testSumReducer() throws IOException {
+        new ReduceDriver<Text, IntWritable, Text, IntWritable>()
+                .withReducer(new WordCountReducer())
+                .withInput(new Text("msg1"), Arrays.asList(new IntWritable(1), new IntWritable(1)))
+                .withOutput(new Text("msg1"), new IntWritable(2))
+                .runTest();
     }
 
-    private void assertCountedOnce(WordCountMapper mapper, Mapper.Context context, InOrder inOrder, String w) throws IOException, InterruptedException {
-        inOrder.verify(mapper.word).set(eq(w));
-        inOrder.verify(context).write(eq(mapper.word), eq(one));
+    @Test
+    public void testWordCount() throws IOException {
+        new MapReduceDriver<LongWritable, Text, Text, IntWritable, Text, IntWritable>()
+                .withMapper(new WordCountMapper())
+                .withReducer(new WordCountReducer())
+                .withInput(new LongWritable(0), new Text("msg1 msg2 msg1"))
+                .withAllOutput(Arrays.asList(
+                        new Pair<>(new Text("msg1"), new IntWritable(2)),
+                        new Pair<>(new Text("msg2"), new IntWritable(1))
+                ))
+                .runTest();
     }
 }
