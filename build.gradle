@@ -2,7 +2,7 @@ plugins {
     id 'java-library'
     id 'scala'
     id 'idea'
-    id 'com.github.johnrengelman.shadow' version '6.1.0'
+    id 'com.github.johnrengelman.shadow' version '7.0.0'
     id 'checkstyle'
     id 'com.github.maiflai.scalatest' version '0.30'
     id 'com.github.alisiikh.scalastyle' version '3.4.1'
