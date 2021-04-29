@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 99
+  target-branch: version_update
+  ignore:
+  - dependency-name: org.scala-lang:scala-library
+    versions:
+    - 2.13.4
+  - dependency-name: org.scala-lang:scala-reflect
+    versions:
+    - 2.13.4
+  - dependency-name: org.scala-lang:scala-compiler
+    versions:
+    - 2.13.4
