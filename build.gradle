@@ -38,7 +38,7 @@ idea {
 dependencies {
     implementation "com.google.guava:guava:23.0" 
     implementation "org.apache.commons:commons-math3:3.6.1"
-    implementation "org.scala-lang:scala-library:2.11.12"
+    implementation "org.scala-lang:scala-library:2.13.6"
     implementation "org.scala-lang:scala-reflect:2.11.12"
     implementation "org.scala-lang:scala-compiler:2.11.12"
     implementation "org.slf4j:slf4j-api:1.7.30"
