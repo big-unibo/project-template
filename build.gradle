@@ -42,7 +42,7 @@ dependencies {
     implementation "org.scala-lang:scala-reflect:2.11.12"
     implementation "org.scala-lang:scala-compiler:2.11.12"
     implementation "org.slf4j:slf4j-api:1.7.30"
-    testCompileOnly "org.slf4j:slf4j-simple:1.7.30"
+    testCompileOnly "org.slf4j:slf4j-simple:1.7.31"
     implementation "org.apache.spark:spark-core_2.11:2.4.7"
     implementation "org.apache.spark:spark-sql_2.11:2.4.7"
     implementation "org.apache.spark:spark-hive_2.11:2.4.7"
