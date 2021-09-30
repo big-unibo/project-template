@@ -1,22 +1,60 @@
 package it.unibo.big
 
+import com.vividsolutions.jts.geom.{Coordinate, CoordinateFilter, Geometry}
 import org.apache.spark.SparkContext
+import org.apache.spark.rdd.RDD
 import org.apache.spark.serializer.KryoSerializer
 import org.apache.spark.sql.{Row, SQLContext, SparkSession}
-import org.datasyslab.geosparksql.utils.GeoSparkSQLRegistrator
+import org.datasyslab.geospark.formatMapper.shapefileParser.ShapefileReader
+import org.datasyslab.geospark.spatialRDD.SpatialRDD
+import org.datasyslab.geosparksql.utils.{Adapter, GeoSparkSQLRegistrator}
 import org.datasyslab.geosparkviz.core.Serde.GeoSparkVizKryoRegistrator
 import org.junit.jupiter.api.{AfterEach, BeforeEach, Test}
-
 import scala.collection.mutable
 
 class TestSpark {
 
   @transient var sc: SparkContext = _
   @transient var hiveContext: SQLContext = _
+  @transient var sparkSession: SparkSession = _
+
+  class GEOSparkLoader(spark: SparkSession) {
+    object Shapefile {
+      def load(shapefilePath: String, sourceEspg: String = "", flip: Boolean = false): SpatialRDD[Geometry] = {
+        // Load map data
+        val neighborhoodsRDD = new SpatialRDD[Geometry]
+        neighborhoodsRDD.rawSpatialRDD = ShapefileReader.readToGeometryRDD(spark.sparkContext, shapefilePath).rawSpatialRDD
+        if (sourceEspg.nonEmpty) {
+          neighborhoodsRDD.CRSTransform(sourceEspg, "epsg:4326")
+        }
+        // Flip coordinates to match WKT
+        if (flip) {
+          val i: RDD[Geometry] = neighborhoodsRDD.getRawSpatialRDD.rdd.map(geo => {
+            geo.apply(new InvertCoordinateFilter)
+            geo.geometryChanged()
+            geo
+          })
+          val neighborhoodsRDDFlipped = new SpatialRDD[Geometry]
+          neighborhoodsRDDFlipped.rawSpatialRDD = i.toJavaRDD()
+          neighborhoodsRDDFlipped
+        } else {
+          neighborhoodsRDD
+        }
+      }
+    }
+
+    class InvertCoordinateFilter extends CoordinateFilter {
+      def filter(coordinate: Coordinate): Unit = {
+        val oldX = coordinate.x
+        coordinate.x = coordinate.y
+        coordinate.y = oldX
+      }
+    }
+  }
 
   @BeforeEach
   def beforeAll(): Unit = {
-    val sparkSession = SparkSession.builder()
+    sparkSession = SparkSession.builder()
       .master("local[2]") // Delete this if run in cluster mode
       .appName("unit test") // Change this to a proper name
       .config("spark.broadcast.compress", "false")
@@ -82,5 +120,15 @@ class TestSpark {
     val df = hiveContext.sql("SELECT ST_Distance(ST_PolygonFromEnvelope(1.0,100.0,1000.0,1100.0), ST_PolygonFromEnvelope(1.0,100.0,1000.0,1100.0))")
     val localDf = df.take(10)
     assert(localDf(0).get(0) == 0, "The distance should equal 0 but it equaled " + localDf(0).get(0))
+  }
+
+  @Test
+  def `Test Geospark -- parsing GEOJSON file` {
+    val spatialDf = ShapefileReader.readToGeometryRDD(sc, "src/main/resources/municipi")
+    println(spatialDf.fieldNames)
+
+    val neighborhoodsRDD = new GEOSparkLoader(sparkSession).Shapefile.load("src/main/resources/municipi/Municipi.shp", "epsg:32632")
+    val neighborhoodsDf = Adapter.toDf(neighborhoodsRDD, sparkSession)
+    neighborhoodsDf.show()
   }
 }
