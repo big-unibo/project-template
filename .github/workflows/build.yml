@@ -7,7 +7,12 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: master
-      - name: Build
+      - name: Test Python
+        run: |
+          cd src/main/python
+          python3 charts.py
+          python3 sample.py 
+      - name: Test Gradle
         run: |
           chmod +x ./gradlew
           ./gradlew
