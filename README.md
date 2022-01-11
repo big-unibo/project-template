@@ -1,4 +1,4 @@
-# BIG - Standard project configuration (your repo name here)
+# BIG - Project template (your repo name here)
 
 [![build](https://github.com/big-unibo/experimental-project/actions/workflows/build.yml/badge.svg)](https://github.com/big-unibo/experimental-project/actions/workflows/build.yml)
 
