@@ -69,7 +69,7 @@ dependencies {
 
 
     // SPARK CLUSTER LIBRARIES
-    implementation "org.apache.spark:spark-core_2.11:2.4.0-cdh6.2.0"
+    implementation "org.apache.spark:spark-core_2.11:2.4.8.7.2.12.2-5"
     implementation "org.apache.spark:spark-sql_2.11:2.4.0-cdh6.2.0"
     implementation "org.apache.spark:spark-hive_2.11:2.4.0-cdh6.2.0"
     implementation "org.apache.spark:spark-mllib_2.11:2.4.0-cdh6.2.0"
