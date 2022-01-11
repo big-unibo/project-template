@@ -9,7 +9,7 @@ results = "../../../results/"
 
 # #############################################################################
 # A plot with random data
-df = pd.read_csv(outputs + "geolife.csv") # read data
+df = pd.read_csv(datasets + "geolife.csv") # read data
 fig, ax = plt.subplots(figsize=(8, 4)) # create the figure
 X = df["timestamp"] # X data
 Y = np.random.rand(len(X.index)) # Y data
