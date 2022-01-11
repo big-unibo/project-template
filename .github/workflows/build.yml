@@ -11,8 +11,8 @@ jobs:
         run: |
           cd src/main/python
           pip3 install -r requirements.txt
-          python3 charts.py
           python3 sample.py 
+          python3 charts.py
       - name: Test Gradle
         run: |
           sudo apt install openjdk-8-jdk
