@@ -1,0 +1,13 @@
+name: "build"
+on: [push, pull_request]
+jobs:
+  launch-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Build
+        run: |
+          chmod +x ./gradlew
+          ./gradlew
