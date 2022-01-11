@@ -13,10 +13,13 @@ jobs:
           pip3 install -r requirements.txt
           python3 sample.py 
           python3 charts.py
+      - uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '8'
+      #    cache: 'gradle'          
       - name: Test Gradle
         run: |
-          sudo apt install openjdk-8-jdk
-          sudo update-alternatives --config java
           java -version
           chmod +x ./gradlew
           ./gradlew
