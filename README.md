@@ -1,6 +1,6 @@
 # BIG - Standard project configuration (your repo name here)
 
-![build passing](https://travis-ci.org/big-unibo/experimental-project.svg?branch=master)
+[![build](https://github.com/big-unibo/experimental-project/actions/workflows/build.yml/badge.svg)](https://github.com/big-unibo/experimental-project/actions/workflows/build.yml)
 
 ## How to run the project
 
