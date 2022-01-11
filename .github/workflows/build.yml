@@ -10,6 +10,7 @@ jobs:
       - name: Test Python
         run: |
           cd src/main/python
+          pip3 install -r requirements.txt
           python3 charts.py
           python3 sample.py 
       - name: Test Gradle
