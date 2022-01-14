@@ -67,7 +67,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
     testImplementation 'org.apache.mrunit:mrunit:1.1.0:hadoop2'
     // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-hdfs
-    testImplementation 'org.apache.hadoop:hadoop-hdfs:2.10.1'
+    testImplementation 'org.apache.hadoop:hadoop-hdfs:3.3.1'
     
     // SPARK CLUSTER LIBRARIES
     implementation "org.apache.spark:spark-core_2.11:2.4.8.7.2.12.2-5"
