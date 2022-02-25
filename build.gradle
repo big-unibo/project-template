@@ -71,7 +71,7 @@ dependencies {
     
     // SPARK CLUSTER LIBRARIES
     implementation "org.apache.spark:spark-core_2.11:2.4.8.7.2.14.0-149"
-    implementation "org.apache.spark:spark-sql_2.11:2.4.8.7.2.12.2-5"
+    implementation "org.apache.spark:spark-sql_2.11:2.4.8.7.2.14.0-149"
     implementation "org.apache.spark:spark-hive_2.11:2.4.8.7.2.14.0-149"
     implementation "org.apache.spark:spark-mllib_2.11:2.4.8.7.2.14.0-149"
     // implementation "org.datasyslab:geospark:1.2.0"
