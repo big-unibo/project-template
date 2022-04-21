@@ -4,7 +4,7 @@ jobs:
   launch-linux:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3.0.1
+      - uses: actions/checkout@v3.0.2
       - name: Test Python
         run: |
           cd src/main/python
