@@ -70,7 +70,7 @@ dependencies {
     testImplementation 'org.apache.hadoop:hadoop-hdfs:3.3.2'
     
     // SPARK CLUSTER LIBRARIES
-    implementation "org.apache.spark:spark-core_2.11:2.4.8.7.2.14.0-149"
+    implementation "org.apache.spark:spark-core_2.11:2.4.8.7.2.15.0-147"
     implementation "org.apache.spark:spark-sql_2.11:2.4.8.7.2.14.0-149"
     implementation "org.apache.spark:spark-hive_2.11:2.4.8.7.2.14.0-149"
     implementation "org.apache.spark:spark-mllib_2.11:2.4.8.7.2.14.0-149"
