@@ -33,7 +33,7 @@ jobs:
 
   release:
     needs:
-      - build
+      - launch-linux
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
