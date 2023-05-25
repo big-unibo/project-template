@@ -27,4 +27,4 @@ jobs:
         run: |
           java -version
           chmod +x ./gradlew
-          ./gradlew
+          ./gradlew --scan
