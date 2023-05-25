@@ -1,5 +1,13 @@
 name: "build"
-on: [push, pull_request]
+on:
+  push:
+    paths-ignore:
+      - 'CHANGELOG.md'
+      - 'LICENSE'
+      - 'README.md'
+      - 'renovate.json'
+  pull_request:
+  workflow_dispatch:
 jobs:
   launch-linux:
     runs-on: ubuntu-latest
@@ -15,7 +23,6 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '8'
-      #    cache: 'gradle'          
       - name: Test Gradle
         run: |
           java -version
