@@ -30,3 +30,27 @@ jobs:
         run: |
           chmod +x ./gradlew
           ./gradlew --stacktrace --scan
+
+  release:
+    needs:
+      - build
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.5.2
+      - uses: actions/setup-java@v3.4.1
+        with:
+          distribution: 'adopt'
+          java-version: '8'
+      - name: Deploy
+        run: |
+          ./gradlew shadowJar
+          mkdir -p dist/
+          cp build/libs/* dist/
+      - name: Release
+        run: |
+          npm install
+          npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
