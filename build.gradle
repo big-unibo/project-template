@@ -45,10 +45,8 @@ idea {
 }
 
 dependencies {
-
     implementation 'com.google.guava:guava:31.1-jre'
-    implementation 'org.apache.commons:commons-math3:3.6.1'
-    implementation 'org.scala-lang:scala-library:2.13.8'
+    implementation 'org.scala-lang:scala-library:2.11.12'
     implementation 'org.scala-lang:scala-reflect:2.11.12'
     implementation 'org.scala-lang:scala-compiler:2.11.12'
     implementation 'org.slf4j:slf4j-api:2.0.0'
@@ -85,9 +83,15 @@ dependencies {
 }
 
 test {
-    // useJUnit()
     useJUnitPlatform()
     maxHeapSize = '1G'
+}
+
+if (hasProperty('buildScan')) {
+    buildScan {
+        termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+        termsOfServiceAgree = 'yes'
+    }
 }
 
 defaultTasks 'clean', 'build', 'check', 'javadoc', 'shadowJar'
