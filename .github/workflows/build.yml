@@ -28,6 +28,5 @@ jobs:
           java-version: '8'
       - name: Test Gradle
         run: |
-          java -version
           chmod +x ./gradlew
           ./gradlew --stacktrace --scan
