@@ -13,12 +13,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3.0.2
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
       - name: Test Python
         run: |
           cd src/main/python
-          pip3 install -r requirements.txt
-          python3 sample.py 
-          python3 charts.py
+          pip install -r requirements.txt
+          python sample.py 
+          python charts.py
       - uses: actions/setup-java@v3.4.1
         with:
           distribution: 'adopt'
