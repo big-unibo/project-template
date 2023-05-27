@@ -1,3 +1,20 @@
+## [1.0.1](https://github.com/big-unibo/project-template/compare/1.0.0...1.0.1) (2023-05-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v32 ([6b80c21](https://github.com/big-unibo/project-template/commit/6b80c218df998a148bd25f09455b48690fbd762d))
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.6.3 ([78d5d01](https://github.com/big-unibo/project-template/commit/78d5d015f59cda7282b453a9bee9e50cf94f27af))
+* **deps:** update dependency numpy to v1.23.5 ([3ecc794](https://github.com/big-unibo/project-template/commit/3ecc794ecea80e6d0f2c1c8892ae43714b4e8299))
+* **deps:** update dependency scikit-learn to v1.1.3 ([7713f2d](https://github.com/big-unibo/project-template/commit/7713f2d6578f58d89d57254c4201f59435292548))
+* **deps:** update dependency scipy to v1.9.3 ([e7cc96d](https://github.com/big-unibo/project-template/commit/e7cc96d65c4017e87466705c88833750b9a9c3df))
+* **deps:** update dependency seaborn to v0.12.2 ([3478822](https://github.com/big-unibo/project-template/commit/347882256acf5d2377d2583037fdb60ac88be9f0))
+* **deps:** update dependency sklearn to v0.0.post5 ([552cd61](https://github.com/big-unibo/project-template/commit/552cd613d210c82c73e86302277c5378d6b59798))
+
 ## 1.0.0 (2023-05-25)
 
 
