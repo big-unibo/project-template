@@ -1,3 +1,15 @@
+## [1.0.3](https://github.com/big-unibo/project-template/compare/1.0.2...1.0.3) (2023-05-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.spark:spark-core_2.11 to v2.4.8.7.2.16.0-287 ([038e6f1](https://github.com/big-unibo/project-template/commit/038e6f11546444a67e488f55d8d872642fab8006))
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.7.1 ([b5584da](https://github.com/big-unibo/project-template/commit/b5584dac7ec0db093ab68dc36b0f4b60499deaf7))
+
 ## [1.0.2](https://github.com/big-unibo/project-template/compare/1.0.1...1.0.2) (2023-05-27)
 
 
