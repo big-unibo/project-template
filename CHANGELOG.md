@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/big-unibo/project-template/compare/1.0.4...1.0.5) (2023-05-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.spark:spark-mllib_2.11 to v2.4.8.7.2.16.0-287 ([b2745df](https://github.com/big-unibo/project-template/commit/b2745dfeba25895b4500b4c08e2e5dda15ef401d))
+
 ## [1.0.4](https://github.com/big-unibo/project-template/compare/1.0.3...1.0.4) (2023-05-28)
 
 
