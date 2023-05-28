@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/big-unibo/project-template/compare/1.0.3...1.0.4) (2023-05-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.spark:spark-hive_2.11 to v2.4.8.7.2.16.0-287 ([34411b9](https://github.com/big-unibo/project-template/commit/34411b96ae681c598b0a98bb9ec7b55de0d4d41b))
+
 ## [1.0.3](https://github.com/big-unibo/project-template/compare/1.0.2...1.0.3) (2023-05-28)
 
 
