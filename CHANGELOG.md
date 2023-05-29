@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/big-unibo/project-template/compare/1.0.5...1.0.6) (2023-05-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.spark:spark-sql_2.11 to v2.4.8.7.2.16.0-287 ([26b0ddb](https://github.com/big-unibo/project-template/commit/26b0ddb0727253ebdab5bb40f48873eace431034))
+
 ## [1.0.5](https://github.com/big-unibo/project-template/compare/1.0.4...1.0.5) (2023-05-28)
 
 
