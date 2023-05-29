@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/big-unibo/project-template/compare/1.0.8...1.0.9) (2023-05-29)
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.9.3 ([d464aeb](https://github.com/big-unibo/project-template/commit/d464aeba5a464fe56c799c5d87db5d5271b86410))
+
 ## [1.0.8](https://github.com/big-unibo/project-template/compare/1.0.7...1.0.8) (2023-05-29)
 
 
