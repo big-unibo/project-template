@@ -4,7 +4,7 @@ plugins {
     id 'idea'
     id 'com.github.johnrengelman.shadow' version '7.1.2'
     id 'checkstyle'
-    id 'com.github.alisiikh.scalastyle' version '3.4.1'
+    id 'com.github.alisiikh.scalastyle' version '3.5.0'
 }
 
 test {
