@@ -1,3 +1,31 @@
+## [1.0.10](https://github.com/big-unibo/project-template/compare/1.0.9...1.0.10) (2023-06-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v32.0.1-jre ([bdaa6a5](https://github.com/big-unibo/project-template/commit/bdaa6a5b423c659599a79171a30caa630f570341))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.5.2 ([070d607](https://github.com/big-unibo/project-template/commit/070d6075bc88a826bcd5fdf4ee66ae8ff30fe879))
+* **deps:** update actions/setup-java action to v3.11.0 ([a067f96](https://github.com/big-unibo/project-template/commit/a067f96a7bd4a81ba9eba1f6b2a9dffac62cb56c))
+
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v6.5.4 ([68d54ad](https://github.com/big-unibo/project-template/commit/68d54ada7292cac36809786ce74e896db9334161))
+* **deps:** update dependency numpy to v1.24.3 ([3cbb804](https://github.com/big-unibo/project-template/commit/3cbb804b95e3f014be42979eeb2c1f8b991e94de))
+* **deps:** update dependency pandas to v1.5.3 ([82a7805](https://github.com/big-unibo/project-template/commit/82a78053898d53d644c9b6807eb03a9bf6af5c23))
+* **deps:** update dependency pandas to v2 ([d27aaf7](https://github.com/big-unibo/project-template/commit/d27aaf786584200abfd52e3f77eb9f3e3cb3d92f))
+* **deps:** update dependency scikit-learn to v1.2.2 ([ba7cec4](https://github.com/big-unibo/project-template/commit/ba7cec433be74dedc0641e0b565feb4b09b78685))
+* **deps:** update dependency scipy to v1.10.1 ([8af10c2](https://github.com/big-unibo/project-template/commit/8af10c2d3e4196f175cb3b3fb5b0b6459ef33422))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.27 ([7bdc7c6](https://github.com/big-unibo/project-template/commit/7bdc7c6e4ab52b35df79c3a4b2714ceb5c6fccc2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.29 ([a5e1e5e](https://github.com/big-unibo/project-template/commit/a5e1e5e8cecb5558e89227427242c3b8dd45aaac))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.30 ([aa04b00](https://github.com/big-unibo/project-template/commit/aa04b009bc66ab5842f6972043f7149bf45aa926))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.32 ([e762cdf](https://github.com/big-unibo/project-template/commit/e762cdf5b03c7d5f551e119beb57e70d88a21cf2))
+* **deps:** update plugin com.github.alisiikh.scalastyle to v3.5.0 ([ec62854](https://github.com/big-unibo/project-template/commit/ec62854fafb36df11655491c95ade8b3e243f649))
+
 ## [1.0.9](https://github.com/big-unibo/project-template/compare/1.0.8...1.0.9) (2023-05-29)
 
 
