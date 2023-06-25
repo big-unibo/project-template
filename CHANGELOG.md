@@ -1,3 +1,25 @@
+## [1.0.11](https://github.com/big-unibo/project-template/compare/1.0.10...1.0.11) (2023-06-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.spark:spark-core_2.11 to v2.4.8.7.2.16.3-8 ([669163c](https://github.com/big-unibo/project-template/commit/669163ce2a16922752b94e2fdc5a9282e907aa6d))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.5.3 ([aa1f619](https://github.com/big-unibo/project-template/commit/aa1f6194500518d6dd0cea8cf0d3031a047557dd))
+
+
+### Dependency updates
+
+* **deps:** update dependency numpy to v1.25.0 ([e7d9a64](https://github.com/big-unibo/project-template/commit/e7d9a649f523f19140570eee768b5ae3a0f3adf9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.33 ([c9a71a2](https://github.com/big-unibo/project-template/commit/c9a71a293c1faa30af6247d6c19e65c3fb47006a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.34 ([a2dca94](https://github.com/big-unibo/project-template/commit/a2dca94cf79d304a1e4db22f4e58d04880b41193))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.35 ([22d1b2b](https://github.com/big-unibo/project-template/commit/22d1b2b0fee0f1909902507b0e657679a581d74f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.37 ([4153085](https://github.com/big-unibo/project-template/commit/41530850569fa850f00ebd79e1627f352521bd8b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.38 ([052ff18](https://github.com/big-unibo/project-template/commit/052ff18f979b568ca689653cb59095c4fe73ae28))
+
 ## [1.0.10](https://github.com/big-unibo/project-template/compare/1.0.9...1.0.10) (2023-06-09)
 
 
