@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/big-unibo/project-template/compare/1.0.13...1.0.14) (2023-06-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.hadoop:hadoop-hdfs to v3.3.6 ([52268ec](https://github.com/big-unibo/project-template/commit/52268ecaae4d1f655f055362221c8f6f0a48b3ec))
+
 ## [1.0.13](https://github.com/big-unibo/project-template/compare/1.0.12...1.0.13) (2023-06-26)
 
 
