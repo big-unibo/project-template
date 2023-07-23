@@ -1,3 +1,27 @@
+## [1.0.15](https://github.com/big-unibo/project-template/compare/1.0.14...1.0.15) (2023-07-23)
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.10.0 ([6a2d6f3](https://github.com/big-unibo/project-template/commit/6a2d6f35a585c7351a0624b1d37cead92cf432aa))
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.7.2 ([5664aeb](https://github.com/big-unibo/project-template/commit/5664aeb6c07ec6ef324aeb41cd1b4880ca152084))
+* **deps:** update dependency notebook to v7 ([a74799e](https://github.com/big-unibo/project-template/commit/a74799ea63fc56cd19071cc88ed28c4800f3d5f2))
+* **deps:** update dependency numpy to v1.25.1 ([970ae26](https://github.com/big-unibo/project-template/commit/970ae26d1aecaefb6aaefcb65e7766f02a524b6f))
+* **deps:** update dependency pandas to v2.0.3 ([ce09aa2](https://github.com/big-unibo/project-template/commit/ce09aa257a9e9f19152bc9712f04fa5ef99d67ee))
+* **deps:** update dependency scikit-learn to v1.3.0 ([4dfce44](https://github.com/big-unibo/project-template/commit/4dfce443f16105a3d86afb86fd0d84ed5705ad41))
+* **deps:** update dependency scipy to v1.11.0 ([8b0de77](https://github.com/big-unibo/project-template/commit/8b0de777cc33f91005872ae61512fbb40bde8eb5))
+* **deps:** update dependency scipy to v1.11.1 ([962a407](https://github.com/big-unibo/project-template/commit/962a407b7835b37d6d57176c2a1f3b6ad8d8b4ce))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.39 ([0fdf8b8](https://github.com/big-unibo/project-template/commit/0fdf8b82493dfb79a9a4f6dc015a62e3591a853f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.40 ([ff6b343](https://github.com/big-unibo/project-template/commit/ff6b343c030f2cd5d96cd6fea644a88e26ebf682))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.41 ([e52a3fa](https://github.com/big-unibo/project-template/commit/e52a3fa5559102727e9a5bba75497db69f9cd331))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.42 ([9188bbb](https://github.com/big-unibo/project-template/commit/9188bbb0ba90e2ba379ab4c68d833dc199adfd99))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.43 ([c6ee027](https://github.com/big-unibo/project-template/commit/c6ee0274d91263edc9f2193f71fee62a30c91ce0))
+* **deps:** update node.js to 18.17 ([358f405](https://github.com/big-unibo/project-template/commit/358f4054e6c5d9cb03233eefa023378e855468f8))
+
 ## [1.0.14](https://github.com/big-unibo/project-template/compare/1.0.13...1.0.14) (2023-06-26)
 
 
