@@ -1,3 +1,21 @@
+## [1.0.16](https://github.com/big-unibo/project-template/compare/1.0.15...1.0.16) (2023-08-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v32.1.2-jre ([6ea9042](https://github.com/big-unibo/project-template/commit/6ea90428a2fc07703ed5cb96d1718c0e35692b42))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v3.12.0 ([1d0cdec](https://github.com/big-unibo/project-template/commit/1d0cdec67c3bf877ee85d1b3a2fd2ec622263fb2))
+
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v7.0.1 ([f4aabc3](https://github.com/big-unibo/project-template/commit/f4aabc39b1cf7417c6338093ed14b4e9989588b0))
+* **deps:** update dependency numpy to v1.25.2 ([aeeea32](https://github.com/big-unibo/project-template/commit/aeeea32184b596525b0bc97397a17f16e28d4751))
+
 ## [1.0.15](https://github.com/big-unibo/project-template/compare/1.0.14...1.0.15) (2023-07-23)
 
 
