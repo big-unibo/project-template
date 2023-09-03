@@ -1,3 +1,32 @@
+## [1.0.17](https://github.com/big-unibo/project-template/compare/1.0.16...1.0.17) (2023-09-03)
+
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v7.0.2 ([9a0a905](https://github.com/big-unibo/project-template/commit/9a0a9056c8bf465149f9228b6b8da084a9999963))
+* **deps:** update dependency notebook to v7.0.3 ([e116809](https://github.com/big-unibo/project-template/commit/e1168094690ed4f4f195ac2f258440153a7e7793))
+* **deps:** update dependency pandas to v2.1.0 ([3b1c319](https://github.com/big-unibo/project-template/commit/3b1c3194cdc391a70d7b4dd7298e7fa78f0e93f8))
+* **deps:** update dependency scipy to v1.11.2 ([665151b](https://github.com/big-unibo/project-template/commit/665151b9472d66b2f73b02366e9a3f4a74cf8866))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.45 ([9460006](https://github.com/big-unibo/project-template/commit/946000692e8f393627ed4c59af76248e3afdb9bf))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.46 ([60e9240](https://github.com/big-unibo/project-template/commit/60e92407745e988c60ac06eeaca014a6b7095490))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.47 ([ccfdc0b](https://github.com/big-unibo/project-template/commit/ccfdc0b183321732aac83a19ce736a501e15e3fd))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.48 ([514c830](https://github.com/big-unibo/project-template/commit/514c8306dd1d857c8d852f11e6dc36264e463fac))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.49 ([aecaff9](https://github.com/big-unibo/project-template/commit/aecaff92993ef5ae2b2a4726626a1b4746d44015))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.50 ([6dd4476](https://github.com/big-unibo/project-template/commit/6dd44761fcb0f6b08ac84ade44bdcb1feb436cf8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.51 ([dd63f82](https://github.com/big-unibo/project-template/commit/dd63f82f7eaf21ca20adea563f53db6577eb0bcc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.52 ([6ef4957](https://github.com/big-unibo/project-template/commit/6ef4957ef52305def49b5e86ccf7c385cf1c4d60))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.53 ([20023cb](https://github.com/big-unibo/project-template/commit/20023cb133cd9757e81af654a89c1c4647a6d80b))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.9 ([b843d93](https://github.com/big-unibo/project-template/commit/b843d939ed2b4b85c8eb10e64c254d1f8ebc5ec8))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.6.0 ([fe227a5](https://github.com/big-unibo/project-template/commit/fe227a55207d103355b141cff0a3e34edc3455cc))
+
 ## [1.0.16](https://github.com/big-unibo/project-template/compare/1.0.15...1.0.16) (2023-08-01)
 
 
