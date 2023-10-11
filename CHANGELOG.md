@@ -1,3 +1,44 @@
+## [1.0.19](https://github.com/big-unibo/project-template/compare/1.0.18...1.0.19) (2023-10-11)
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.7.3 ([505e76c](https://github.com/big-unibo/project-template/commit/505e76ca48624f63f9697051189f8dfd6bb7577a))
+* **deps:** update dependency matplotlib to v3.8.0 ([c6fb541](https://github.com/big-unibo/project-template/commit/c6fb5413bfc1c2083251e6dac6c97e87a877c90a))
+* **deps:** update dependency notebook to v7.0.4 ([cd3b5b7](https://github.com/big-unibo/project-template/commit/cd3b5b791909c19fd2e66a600ccae118c6deb02d))
+* **deps:** update dependency numpy to v1.26.0 ([fcc5db3](https://github.com/big-unibo/project-template/commit/fcc5db322d48dac06cb2445a3a48675f0b8e8025))
+* **deps:** update dependency pandas to v2.1.1 ([27b6abd](https://github.com/big-unibo/project-template/commit/27b6abd78a99409412639ba52c9deda1ddfff430))
+* **deps:** update dependency scikit-learn to v1.3.1 ([fce7699](https://github.com/big-unibo/project-template/commit/fce7699b6fcf49c22d457afd974d59c6502ea8ce))
+* **deps:** update dependency scipy to v1.11.3 ([cf4dd84](https://github.com/big-unibo/project-template/commit/cf4dd84fd66e92070b435aa7c4f80d3bcee8894a))
+* **deps:** update dependency seaborn to v0.13.0 ([5b3f649](https://github.com/big-unibo/project-template/commit/5b3f649963ca02723a5d9dd0c3536d7abc6130cd))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.54 ([6b54b87](https://github.com/big-unibo/project-template/commit/6b54b87a834986fe636cd315dd6bb0d11da43eb0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.55 ([ea555fb](https://github.com/big-unibo/project-template/commit/ea555fbcd6ed0c210065ceab95795395353aa59e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.56 ([c6f538b](https://github.com/big-unibo/project-template/commit/c6f538ba36a0bd6fb1ab005e36929d639ea7422b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.58 ([01d5425](https://github.com/big-unibo/project-template/commit/01d5425667517c2c54e3bb9384bc77e69012d591))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.59 ([7c4f2a4](https://github.com/big-unibo/project-template/commit/7c4f2a489db587986a022e6443e904476ff10c3b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.60 ([347b450](https://github.com/big-unibo/project-template/commit/347b45079041131f9364b1b38f00713980883ab2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.61 ([b039d68](https://github.com/big-unibo/project-template/commit/b039d6808b95b4930421d230a55b69ba18c5b7bb))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.62 ([44e1e4c](https://github.com/big-unibo/project-template/commit/44e1e4c67c2bd1a4d2bb8590cad1aa458bfd135c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.63 ([2d93140](https://github.com/big-unibo/project-template/commit/2d9314075fb2b66668d4466264b3e4fc5e8736f8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.64 ([d762b31](https://github.com/big-unibo/project-template/commit/d762b3112dfe76e61c39027575b0292d23719bb3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.65 ([5f58a78](https://github.com/big-unibo/project-template/commit/5f58a7867b6fef444d715c98a5a448287a9f572b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.66 ([04cd912](https://github.com/big-unibo/project-template/commit/04cd912e0261b2f3533f00376dcecb611ad8872b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.67 ([20ee08d](https://github.com/big-unibo/project-template/commit/20ee08d05e1c64e75bced892e22dd3dbe856a657))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.68 ([7602b68](https://github.com/big-unibo/project-template/commit/7602b68a1451c2076b8168791be2198a22c698a3))
+* **deps:** update node.js to 18.18 ([cdcdc34](https://github.com/big-unibo/project-template/commit/cdcdc342a168f08e17659680306c0fcfa641374d))
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v32.1.3-jre ([3a048a8](https://github.com/big-unibo/project-template/commit/3a048a82db5db0d5629440f6b33d65ef4e7e57b5))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4 ([4f08b4c](https://github.com/big-unibo/project-template/commit/4f08b4c74d3bf91ddfbdc0e16a4633ce2dd6192d))
+* **deps:** update actions/checkout action to v4.1.0 ([286651e](https://github.com/big-unibo/project-template/commit/286651ee49fc04158818c277d579b679ff5ebeae))
+* **deps:** update actions/setup-java action to v3.13.0 ([98148c5](https://github.com/big-unibo/project-template/commit/98148c5eba9c2b2245c2bdfe4c0f72b4bd36ee6b))
+
 ## [1.0.18](https://github.com/big-unibo/project-template/compare/1.0.17...1.0.18) (2023-09-04)
 
 
