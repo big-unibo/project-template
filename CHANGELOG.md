@@ -1,3 +1,30 @@
+## [1.0.20](https://github.com/big-unibo/project-template/compare/1.0.19...1.0.20) (2023-11-05)
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.8.1 ([3d861ec](https://github.com/big-unibo/project-template/commit/3d861eca1d91b4bc138a1aad628640706d552bf7))
+* **deps:** update dependency notebook to v7.0.5 ([e85cc49](https://github.com/big-unibo/project-template/commit/e85cc49b4921009a350689f09daed01fbb0c0b81))
+* **deps:** update dependency notebook to v7.0.6 ([3fb29f1](https://github.com/big-unibo/project-template/commit/3fb29f125717631890b475fb564eb8ea0c07bec0))
+* **deps:** update dependency numpy to v1.26.1 ([e789624](https://github.com/big-unibo/project-template/commit/e7896249bcd277b912d38c83434f932b8311f70e))
+* **deps:** update dependency pandas to v2.1.2 ([bcff8c9](https://github.com/big-unibo/project-template/commit/bcff8c9291f2e5c9eeaab3f6175aca0d4c7e6a15))
+* **deps:** update dependency scikit-learn to v1.3.2 ([f2a12d6](https://github.com/big-unibo/project-template/commit/f2a12d66a1be9af4b770954dff7476ec81c563ad))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.69 ([e40d87b](https://github.com/big-unibo/project-template/commit/e40d87b6bdda6e0b4db5713e97700339b4f77054))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.70 ([0055686](https://github.com/big-unibo/project-template/commit/0055686e722f049314db5643252b9fd7eb41a599))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.71 ([1d0fc5b](https://github.com/big-unibo/project-template/commit/1d0fc5b664cf21c796b0030e70a03ee7c6a5ec44))
+* **deps:** update node.js to 20.9 ([b196b76](https://github.com/big-unibo/project-template/commit/b196b760f8c4c224bd76b2cc922614120ca54598))
+* **deps:** update node.js to v20 ([bc384ec](https://github.com/big-unibo/project-template/commit/bc384ecf48f00aad7dbb2a3a099b54117f0e2742))
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.10.1 ([24aec80](https://github.com/big-unibo/project-template/commit/24aec80bc4ab90af8f01b846ea9b6e368fbdc624))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.1 ([11a6729](https://github.com/big-unibo/project-template/commit/11a67295837180d3ac7cc591e19dc71d5890ae42))
+
 ## [1.0.19](https://github.com/big-unibo/project-template/compare/1.0.18...1.0.19) (2023-10-11)
 
 
