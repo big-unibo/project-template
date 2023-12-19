@@ -1,3 +1,39 @@
+## [1.0.21](https://github.com/big-unibo/project-template/compare/1.0.20...1.0.21) (2023-12-19)
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.8.2 ([572b797](https://github.com/big-unibo/project-template/commit/572b7974a31a2331e39a53c3da61c143b5e0bc77))
+* **deps:** update dependency numpy to v1.26.2 ([044c133](https://github.com/big-unibo/project-template/commit/044c133aec9e7ebd3699ff2caadebfea767eb389))
+* **deps:** update dependency pandas to v2.1.3 ([8b4fc19](https://github.com/big-unibo/project-template/commit/8b4fc193865fae11765a4a1ed88ab7e6bceaf49e))
+* **deps:** update dependency pandas to v2.1.4 ([af3aa93](https://github.com/big-unibo/project-template/commit/af3aa934615e0ff49bd054940563d04a9dd9552a))
+* **deps:** update dependency scipy to v1.11.4 ([69c62e6](https://github.com/big-unibo/project-template/commit/69c62e653df9e01320308ee64bb9540825e83792))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.72 ([6d5d084](https://github.com/big-unibo/project-template/commit/6d5d0842e452b0a77518fea299803339a950dc3b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.73 ([7b3946b](https://github.com/big-unibo/project-template/commit/7b3946b11c224585c21ca4bf976d044a4b90d514))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.74 ([ab3e479](https://github.com/big-unibo/project-template/commit/ab3e479a42065840c894d54811e2975a6f01a009))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.75 ([117d90c](https://github.com/big-unibo/project-template/commit/117d90c06d6c62ca80b3696aff480082ca3744d1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.76 ([598e70e](https://github.com/big-unibo/project-template/commit/598e70eb7cdbb57d839782ef197ec22d84ce8072))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.77 ([c632add](https://github.com/big-unibo/project-template/commit/c632add59248782e7a0a24b009d2c8d2dd458472))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.78 ([feeef8f](https://github.com/big-unibo/project-template/commit/feeef8fb80856df66993edf9940be943474c9175))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.79 ([e1c36e9](https://github.com/big-unibo/project-template/commit/e1c36e9f23d1b3a4e3c94d8b5917bfb3f32bc7d6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.80 ([6750bd9](https://github.com/big-unibo/project-template/commit/6750bd97792bec35842f704d474877254880d89a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.81 ([28d6850](https://github.com/big-unibo/project-template/commit/28d6850b9ceb4535fc59bc64f449ad4b7f962a32))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.82 ([75c3304](https://github.com/big-unibo/project-template/commit/75c3304f5aba7dd91f1a8b436c7aa6d21e9f267c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.83 ([22a036a](https://github.com/big-unibo/project-template/commit/22a036a15e28e499accb3b7b552c40cea6735b68))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.84 ([4b43162](https://github.com/big-unibo/project-template/commit/4b43162ba8de7f3cfe90b00b3f7b5110445ed74d))
+* **deps:** update node.js to 20.10 ([e986b52](https://github.com/big-unibo/project-template/commit/e986b5257ce5ebb901943dddfe4bd2c9472fa5ab))
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33 ([b64b35d](https://github.com/big-unibo/project-template/commit/b64b35d55d517960f3e93031091283ca96fb6dc2))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4 ([153f849](https://github.com/big-unibo/project-template/commit/153f84992c0b0a2c4210854b9c86f78af89dbd8d))
+* **deps:** update actions/setup-python action to v5 ([27017cd](https://github.com/big-unibo/project-template/commit/27017cd5df971f05a724eb87e634f2699121c130))
+
 ## [1.0.20](https://github.com/big-unibo/project-template/compare/1.0.19...1.0.20) (2023-11-05)
 
 
