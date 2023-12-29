@@ -1,3 +1,15 @@
+## [1.0.22](https://github.com/big-unibo/project-template/compare/1.0.21...1.0.22) (2023-12-29)
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.85 ([a5a9d4c](https://github.com/big-unibo/project-template/commit/a5a9d4c81ddc964fa182d916cb14192fc1cfa5cc))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.10 ([d972711](https://github.com/big-unibo/project-template/commit/d97271102679e4d1467abb4fa9da010b1d024c78))
+
 ## [1.0.21](https://github.com/big-unibo/project-template/compare/1.0.20...1.0.21) (2023-12-19)
 
 
