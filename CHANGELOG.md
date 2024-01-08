@@ -1,3 +1,16 @@
+## [1.0.24](https://github.com/big-unibo/project-template/compare/1.0.23...1.0.24) (2024-01-08)
+
+
+### Dependency updates
+
+* **deps:** update dependency numpy to v1.26.3 ([45f6b5e](https://github.com/big-unibo/project-template/commit/45f6b5e57ec7b9d2b8a65b3e32c28371fd330636))
+* **deps:** update dependency seaborn to v0.13.1 ([4013576](https://github.com/big-unibo/project-template/commit/401357691eab40039afc81712266f402ea491c4d))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-api to v2.0.11 ([9dc6e5e](https://github.com/big-unibo/project-template/commit/9dc6e5ec47bf98e9fc6f2cdaf9d7ee3e4e418417))
+
 ## [1.0.23](https://github.com/big-unibo/project-template/compare/1.0.22...1.0.23) (2023-12-29)
 
 
