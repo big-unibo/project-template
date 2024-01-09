@@ -1,3 +1,10 @@
+## [1.0.25](https://github.com/big-unibo/project-template/compare/1.0.24...1.0.25) (2024-01-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.slf4j:slf4j-simple to v2.0.11 ([d599334](https://github.com/big-unibo/project-template/commit/d5993348f7ad8f292dddce3fbfaaf6610745d4f0))
+
 ## [1.0.24](https://github.com/big-unibo/project-template/compare/1.0.23...1.0.24) (2024-01-08)
 
 
