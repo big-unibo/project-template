@@ -1,3 +1,20 @@
+## [1.0.26](https://github.com/big-unibo/project-template/compare/1.0.25...1.0.26) (2024-02-04)
+
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v7.0.7 [security] ([e7171d2](https://github.com/big-unibo/project-template/commit/e7171d2acea4817ecb6f2ba8d3baebeecc81f68e))
+* **deps:** update dependency pandas to v2.2.0 ([f3d1f20](https://github.com/big-unibo/project-template/commit/f3d1f2004c81000c11ca1910641eb0384196d77b))
+* **deps:** update dependency scikit-learn to v1.4.0 ([b8a4c9a](https://github.com/big-unibo/project-template/commit/b8a4c9a751fed37c323be59dc6350870692045f0))
+* **deps:** update dependency scipy to v1.12.0 ([83ec35c](https://github.com/big-unibo/project-template/commit/83ec35c91d404fa74fa92b8f75b0eac175f8ff99))
+* **deps:** update dependency seaborn to v0.13.2 ([4cfb85c](https://github.com/big-unibo/project-template/commit/4cfb85c5795c33f5d9702c6f7097b847b80341ec))
+* **deps:** update node.js to 20.11 ([eabc8d9](https://github.com/big-unibo/project-template/commit/eabc8d97197c1f2488588b2ee017e9cbac11ee53))
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.10.2 ([abb2327](https://github.com/big-unibo/project-template/commit/abb23277fa8ce9cb3c92e106381b9e30e2e2f3aa))
+
 ## [1.0.25](https://github.com/big-unibo/project-template/compare/1.0.24...1.0.25) (2024-01-09)
 
 
