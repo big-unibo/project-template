@@ -1,3 +1,15 @@
+## [1.0.27](https://github.com/big-unibo/project-template/compare/1.0.26...1.0.27) (2024-02-06)
+
+
+### Dependency updates
+
+* **deps:** update dependency numpy to v1.26.4 ([e2c2766](https://github.com/big-unibo/project-template/commit/e2c276620bd5c767e471d941a5457697e7137c8c))
+
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.12 ([8667ba4](https://github.com/big-unibo/project-template/commit/8667ba4a79ce52dd20df202a8bc4ab6ea2c66df6))
+
 ## [1.0.26](https://github.com/big-unibo/project-template/compare/1.0.25...1.0.26) (2024-02-04)
 
 
