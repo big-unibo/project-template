@@ -1,3 +1,26 @@
+## [1.0.28](https://github.com/big-unibo/project-template/compare/1.0.27...1.0.28) (2024-03-14)
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.8.3 ([ef23781](https://github.com/big-unibo/project-template/commit/ef2378121bf139b2f235579745e7d55a92546f8c))
+* **deps:** update dependency notebook to v7.0.8 ([bcf14c1](https://github.com/big-unibo/project-template/commit/bcf14c19795e6a91bf6d74d1ec5c5b02c1fbc971))
+* **deps:** update dependency notebook to v7.1.0 ([8f33301](https://github.com/big-unibo/project-template/commit/8f333017bbc680e276ac3bb84e40ce62e49cdefd))
+* **deps:** update dependency notebook to v7.1.1 ([60d726b](https://github.com/big-unibo/project-template/commit/60d726bb92f44df776837e07d9747f0a28961f98))
+* **deps:** update dependency pandas to v2.2.1 ([8887088](https://github.com/big-unibo/project-template/commit/8887088eeefbe0ebc071f18f25b747461f84743e))
+* **deps:** update dependency scikit-learn to v1.4.1.post1 ([5007b2e](https://github.com/big-unibo/project-template/commit/5007b2e56c93a31afbc37c32343163855c833b57))
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33.1.0-jre ([3b2454f](https://github.com/big-unibo/project-template/commit/3b2454f01dd5a358199f28b1290dbdab9c05ad4f))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4.1.0 ([9d34abd](https://github.com/big-unibo/project-template/commit/9d34abdb7a4a37979ffe003e36ba97635dd4f348))
+* **deps:** update actions/setup-java action to v4.2.0 ([0184efd](https://github.com/big-unibo/project-template/commit/0184efd011ee6183d7ab672b0cdd8026f2dd15fd))
+
 ## [1.0.27](https://github.com/big-unibo/project-template/compare/1.0.26...1.0.27) (2024-02-06)
 
 
