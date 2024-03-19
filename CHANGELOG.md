@@ -1,3 +1,20 @@
+## [1.0.29](https://github.com/big-unibo/project-template/compare/1.0.28...1.0.29) (2024-03-19)
+
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v7.1.2 ([a7763f8](https://github.com/big-unibo/project-template/commit/a7763f895c4e5b0ef789be88176789e287cd2160))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.hadoop:hadoop-hdfs to v3.4.0 ([b38d822](https://github.com/big-unibo/project-template/commit/b38d82245464ef5f314a1527f48420e5436322c3))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4.2.1 ([2a0955b](https://github.com/big-unibo/project-template/commit/2a0955b8d10a239fffd19bb50c7a918e26fcb65a))
+
 ## [1.0.28](https://github.com/big-unibo/project-template/compare/1.0.27...1.0.28) (2024-03-14)
 
 
