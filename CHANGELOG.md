@@ -1,3 +1,19 @@
+## [1.0.30](https://github.com/big-unibo/project-template/compare/1.0.29...1.0.30) (2024-04-12)
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.8.4 ([1f53b7f](https://github.com/big-unibo/project-template/commit/1f53b7f2c3013e4de3918673874f202b80c06b8e))
+* **deps:** update dependency pandas to v2.2.2 ([cc130df](https://github.com/big-unibo/project-template/commit/cc130df03ac23dde73eb9e00a9fbba5d31a15d0c))
+* **deps:** update dependency scikit-learn to v1.4.2 ([13ee191](https://github.com/big-unibo/project-template/commit/13ee19133448a2ae4c694cf8e9f0bbb9e03f79ee))
+* **deps:** update dependency scipy to v1.13.0 ([24b85ec](https://github.com/big-unibo/project-template/commit/24b85ec23f9ab5df7271978b4e871a1d0df62ef0))
+* **deps:** update node.js to 20.12 ([b01a7c5](https://github.com/big-unibo/project-template/commit/b01a7c5144e71bb71f265edf1e57db1e3eabc12c))
+
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.13 ([258e83a](https://github.com/big-unibo/project-template/commit/258e83a33b70ade024c61b6751b49bfd73f6e976))
+
 ## [1.0.29](https://github.com/big-unibo/project-template/compare/1.0.28...1.0.29) (2024-03-19)
 
 
