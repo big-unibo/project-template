@@ -1,3 +1,21 @@
+## [1.0.31](https://github.com/big-unibo/project-template/compare/1.0.30...1.0.31) (2024-05-02)
+
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v7.1.3 ([9eae088](https://github.com/big-unibo/project-template/commit/9eae088308f20bb14b9df9f26141fc14fa0dd534))
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33.2.0-jre ([b0434ff](https://github.com/big-unibo/project-template/commit/b0434ff5884a153677be73b5e527dc2767d1083b))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.3 ([cc8f0b9](https://github.com/big-unibo/project-template/commit/cc8f0b961f85c744b16f041ff06ef0964c504c34))
+* **deps:** update actions/checkout action to v4.1.4 ([c02b3ff](https://github.com/big-unibo/project-template/commit/c02b3ff41e1df0200c71574ef638ef9fd4f436ce))
+
 ## [1.0.30](https://github.com/big-unibo/project-template/compare/1.0.29...1.0.30) (2024-04-12)
 
 
