@@ -1,3 +1,26 @@
+## [1.0.32](https://github.com/big-unibo/project-template/compare/1.0.31...1.0.32) (2024-05-31)
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.9.0 ([f48dc93](https://github.com/big-unibo/project-template/commit/f48dc93f47f0b11a39110065afed9c04307392ab))
+* **deps:** update dependency notebook to v7.2.0 ([5129ced](https://github.com/big-unibo/project-template/commit/5129cedc848e0c99f7fa6f784dd472e630cebff9))
+* **deps:** update dependency scikit-learn to v1.5.0 ([d1fffcc](https://github.com/big-unibo/project-template/commit/d1fffccc9d06b5c9e08941a7e0641872f049b515))
+* **deps:** update dependency scipy to v1.13.1 ([ebcf16c](https://github.com/big-unibo/project-template/commit/ebcf16cdd414e58b7afc585a6835efa1d7f01b71))
+* **deps:** update node.js to 20.13 ([37d80d5](https://github.com/big-unibo/project-template/commit/37d80d5cf3b96bb758ace2ab5b4d57c214e9a318))
+* **deps:** update node.js to 20.14 ([9f233ff](https://github.com/big-unibo/project-template/commit/9f233ff9bbed0a61e1d845fe5f0045f4c81d3416))
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33.2.1-jre ([89529fa](https://github.com/big-unibo/project-template/commit/89529fad495f641225a079c1bcec88a874d79931))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.5 ([d86d85e](https://github.com/big-unibo/project-template/commit/d86d85e50f59afcd6018e4fc50443de2123b53b4))
+* **deps:** update actions/checkout action to v4.1.6 ([1586369](https://github.com/big-unibo/project-template/commit/1586369fac567b0e7b12422946a79dfa12e2fb77))
+
 ## [1.0.31](https://github.com/big-unibo/project-template/compare/1.0.30...1.0.31) (2024-05-02)
 
 
