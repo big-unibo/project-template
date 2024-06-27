@@ -1,3 +1,23 @@
+## [1.0.33](https://github.com/big-unibo/project-template/compare/1.0.32...1.0.33) (2024-06-27)
+
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v7.2.1 ([b58955f](https://github.com/big-unibo/project-template/commit/b58955f63156ce2ef1d6435b9bc8a2c3a02d1fd1))
+* **deps:** update dependency numpy to v2 ([5f2c312](https://github.com/big-unibo/project-template/commit/5f2c31211a4b9abc83f06580eebe5dcad59c05ae))
+* **deps:** update dependency scipy to v1.14.0 ([0e2b457](https://github.com/big-unibo/project-template/commit/0e2b457c364f5eda9a868644848d9b56bd31862d))
+* **deps:** update node.js to 20.15 ([64bd56d](https://github.com/big-unibo/project-template/commit/64bd56d19dc716f3ac379822687056afef976d27))
+
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.10.3 ([5219966](https://github.com/big-unibo/project-template/commit/52199667acc97c21487bf0c781677ef5866d8654))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.7 ([273576e](https://github.com/big-unibo/project-template/commit/273576ea7260823d7e3c13600fc9647a61a68734))
+
 ## [1.0.32](https://github.com/big-unibo/project-template/compare/1.0.31...1.0.32) (2024-05-31)
 
 
