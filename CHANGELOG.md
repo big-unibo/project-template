@@ -1,3 +1,23 @@
+## [1.0.34](https://github.com/big-unibo/project-template/compare/1.0.33...1.0.34) (2024-07-30)
+
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.9.1 ([ffb8860](https://github.com/big-unibo/project-template/commit/ffb88601c94ae0d53da2807c24c163b755cd6c72))
+* **deps:** update dependency numpy to v2.0.1 ([f23d339](https://github.com/big-unibo/project-template/commit/f23d339de5f217b25ed6aeba756fd867796a826c))
+* **deps:** update dependency scikit-learn to v1.5.1 ([19f0096](https://github.com/big-unibo/project-template/commit/19f009670cc281621b2144ec27f136f7ee5489be))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.86 ([2f7434e](https://github.com/big-unibo/project-template/commit/2f7434e5d47591aa18a3133c6b624d08df5632c0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.87 ([3cac642](https://github.com/big-unibo/project-template/commit/3cac642dd895e004c104a13812b9968bd9275b47))
+* **deps:** update node.js to 20.16 ([870abcb](https://github.com/big-unibo/project-template/commit/870abcb3e81d6f3562f47e569a5c760195383cc7))
+
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.spark:spark-core_2.11 to v2.4.8.7.2.17.0-334 ([0dc2ebe](https://github.com/big-unibo/project-template/commit/0dc2ebeec0e79abd1c3305ba7f33afd867cd319d))
+* **deps:** update dependency org.apache.spark:spark-hive_2.11 to v2.4.8.7.2.17.0-334 ([964a4be](https://github.com/big-unibo/project-template/commit/964a4be131ddd08fcb5bfde0118faafcab9c2545))
+* **deps:** update dependency org.apache.spark:spark-mllib_2.11 to v2.4.8.7.2.17.0-334 ([e4642b5](https://github.com/big-unibo/project-template/commit/e4642b5d55b1bfe5043069ef945877c6487aaacb))
+* **deps:** update dependency org.apache.spark:spark-sql_2.11 to v2.4.8.7.2.17.0-334 ([64b7074](https://github.com/big-unibo/project-template/commit/64b7074c89cad521b1a3092407bed825e1e77dc8))
+
 ## [1.0.33](https://github.com/big-unibo/project-template/compare/1.0.32...1.0.33) (2024-06-27)
 
 
