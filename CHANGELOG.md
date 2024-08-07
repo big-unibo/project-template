@@ -1,3 +1,17 @@
+## [1.0.35](https://github.com/big-unibo/project-template/compare/1.0.34...1.0.35) (2024-08-07)
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.95 ([8107453](https://github.com/big-unibo/project-template/commit/8107453a56afd5607fa13bce8409c58a215ef28a))
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.14 ([cd22919](https://github.com/big-unibo/project-template/commit/cd2291954200f43a08705d37637589789e809d38))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4.2.2 ([45e3de8](https://github.com/big-unibo/project-template/commit/45e3de87f4991b06c3cb6fb9c5f4b5468b3531b8))
+
 ## [1.0.34](https://github.com/big-unibo/project-template/compare/1.0.33...1.0.34) (2024-07-30)
 
 
