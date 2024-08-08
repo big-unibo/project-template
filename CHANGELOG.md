@@ -1,3 +1,13 @@
+## [1.0.36](https://github.com/big-unibo/project-template/compare/1.0.35...1.0.36) (2024-08-08)
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.9.1.post1 ([bb6919f](https://github.com/big-unibo/project-template/commit/bb6919f7c3dd01f876a95cb4c66a38238e038f00))
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.15 ([d1e1566](https://github.com/big-unibo/project-template/commit/d1e1566e8227f2186ef8c3c40bdb4c228b43a82d))
+
 ## [1.0.35](https://github.com/big-unibo/project-template/compare/1.0.34...1.0.35) (2024-08-07)
 
 ### Dependency updates
