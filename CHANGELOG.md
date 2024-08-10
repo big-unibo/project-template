@@ -1,3 +1,9 @@
+## [1.0.37](https://github.com/big-unibo/project-template/compare/1.0.36...1.0.37) (2024-08-10)
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.16 ([f7b7d98](https://github.com/big-unibo/project-template/commit/f7b7d98a4514a573132d75e4dddcc535d9d8b1dc))
+
 ## [1.0.36](https://github.com/big-unibo/project-template/compare/1.0.35...1.0.36) (2024-08-08)
 
 ### Dependency updates
