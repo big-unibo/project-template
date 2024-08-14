@@ -1,3 +1,14 @@
+## [1.0.38](https://github.com/big-unibo/project-template/compare/1.0.37...1.0.38) (2024-08-14)
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.9.2 ([9d9e907](https://github.com/big-unibo/project-template/commit/9d9e9075991c755d960fd4303b726367233ddc91))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.96 ([8f45374](https://github.com/big-unibo/project-template/commit/8f453741971cf01ed3487e0c4072179b48e2b3da))
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.11.0 ([36f3add](https://github.com/big-unibo/project-template/commit/36f3add3eb297c2da5f3fa02e688230a2635ca32))
+
 ## [1.0.37](https://github.com/big-unibo/project-template/compare/1.0.36...1.0.37) (2024-08-10)
 
 ### Bug Fixes
