@@ -1,3 +1,9 @@
+## [1.0.39](https://github.com/big-unibo/project-template/compare/1.0.38...1.0.39) (2024-08-17)
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33.3.0-jre ([19e2a29](https://github.com/big-unibo/project-template/commit/19e2a292ca50f3637888f1305426468c7f7d2541))
+
 ## [1.0.38](https://github.com/big-unibo/project-template/compare/1.0.37...1.0.38) (2024-08-14)
 
 ### Dependency updates
