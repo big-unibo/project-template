@@ -1,7 +1,7 @@
 numpy==2.1.0
 pandas==2.2.2
 scikit-learn==1.5.1
-scipy==1.14.0
+scipy==1.14.1
 notebook==7.2.1
 matplotlib==3.9.2
 seaborn==0.13.2
