@@ -1,3 +1,35 @@
+## [1.0.40](https://github.com/big-unibo/project-template/compare/1.0.39...1.0.40) (2024-09-24)
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v7.2.2 ([a4a52a6](https://github.com/big-unibo/project-template/commit/a4a52a63a0f5eaef8e39ade9c3e86973d0e410f1))
+* **deps:** update dependency numpy to v2.1.0 ([20f42be](https://github.com/big-unibo/project-template/commit/20f42be98773e1ec797b855f5af6f0898d53fefb))
+* **deps:** update dependency numpy to v2.1.1 ([6c1679b](https://github.com/big-unibo/project-template/commit/6c1679be830e9ae61e14df09d55bee0cac6729df))
+* **deps:** update dependency pandas to v2.2.3 ([c7e79c1](https://github.com/big-unibo/project-template/commit/c7e79c12ac239ad66b6dc733b92773c1f92c6edd))
+* **deps:** update dependency scikit-learn to v1.5.2 ([cd354ad](https://github.com/big-unibo/project-template/commit/cd354ad96e6d073370578aaf55fb23641c343b24))
+* **deps:** update dependency scipy to v1.14.1 ([29c5083](https://github.com/big-unibo/project-template/commit/29c5083c48ea4d6b148d96112196dadbb65575f0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.101 ([0ca5c58](https://github.com/big-unibo/project-template/commit/0ca5c5859e10f23d14b0c46e2c5163c960b0a84e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.102 ([04b9b39](https://github.com/big-unibo/project-template/commit/04b9b39b18035d0f066ce2921e8dfa6cf2162fbb))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.103 ([c23da08](https://github.com/big-unibo/project-template/commit/c23da08ef9f36f06f7b81c02f77b3414b9949f12))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.104 ([1fa8218](https://github.com/big-unibo/project-template/commit/1fa82185d994b66f8537a1fc7ae5b3820ec0fa46))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.105 ([92fdcf0](https://github.com/big-unibo/project-template/commit/92fdcf0603c326cdc66b9778aeaa7efa8dfc7fa2))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.106 ([46e76ac](https://github.com/big-unibo/project-template/commit/46e76ac7b3390d1f6b855af5cf17bdbb638b2518))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.107 ([daf488d](https://github.com/big-unibo/project-template/commit/daf488d39621c5b68dfdb75c5ff6aca93ce2673c))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.108 ([641646f](https://github.com/big-unibo/project-template/commit/641646fb3c3e8c741c7be29149dc7dc1b798aec4))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.97 ([bebaf7a](https://github.com/big-unibo/project-template/commit/bebaf7a5682032939d57ca769f86b43e2feef13e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.98 ([f18d4ed](https://github.com/big-unibo/project-template/commit/f18d4ed2b4f72f9ed626524cc31b1146d8784698))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.99 ([26cb379](https://github.com/big-unibo/project-template/commit/26cb37926c2febde05e308dbc7bd95113ed813ee))
+* **deps:** update node.js to 20.17 ([ad93d80](https://github.com/big-unibo/project-template/commit/ad93d809f27d41a39b286bfd16dc5b4fc3a60703))
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33.3.1-jre ([5fc9c64](https://github.com/big-unibo/project-template/commit/5fc9c640b0aa27b6510d8eacd3d35e72540fb804))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4.3.0 ([c52eb7a](https://github.com/big-unibo/project-template/commit/c52eb7af23f5c8fd33e9cc8ebc800656733ff9a3))
+* **deps:** update actions/setup-node action to v4.0.4 ([94671a3](https://github.com/big-unibo/project-template/commit/94671a305788852f6827d1e6f88a331f22dbd2a1))
+
 ## [1.0.39](https://github.com/big-unibo/project-template/compare/1.0.38...1.0.39) (2024-08-17)
 
 ### Bug Fixes
