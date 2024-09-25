@@ -1,3 +1,13 @@
+## [1.0.41](https://github.com/big-unibo/project-template/compare/1.0.40...1.0.41) (2024-09-25)
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.11.1 ([c5dd061](https://github.com/big-unibo/project-template/commit/c5dd061ac49b576fa5c7644cc739588d85b5e7ca))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4.4.0 ([812a973](https://github.com/big-unibo/project-template/commit/812a97344b030195a19cb8f7de80153bbd37d623))
+
 ## [1.0.40](https://github.com/big-unibo/project-template/compare/1.0.39...1.0.40) (2024-09-24)
 
 ### Dependency updates
