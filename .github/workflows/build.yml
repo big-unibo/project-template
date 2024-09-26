@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 jobs:
   launch-linux:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4.2.0
       - uses: actions/setup-python@v5
@@ -35,7 +35,7 @@ jobs:
     needs:
       - launch-linux
     if: github.event_name == 'push'
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.0
