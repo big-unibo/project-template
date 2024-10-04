@@ -1,3 +1,20 @@
+## [1.0.42](https://github.com/big-unibo/project-template/compare/1.0.41...1.0.42) (2024-10-04)
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.109 ([2751b0e](https://github.com/big-unibo/project-template/commit/2751b0e68977ae35410383c94e9aec9de0a2d259))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.110 ([6dbb72e](https://github.com/big-unibo/project-template/commit/6dbb72e00071f10c69ba88eae6a7b4e927848598))
+* **deps:** update node.js to 20.18 ([c3df675](https://github.com/big-unibo/project-template/commit/c3df675d0a441906e4fd8fe7b48e3bd132b86c57))
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.11.2 ([4702cc5](https://github.com/big-unibo/project-template/commit/4702cc5e7c5ac96806cc140aa08a9ae4d04b6c62))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.2.0 ([5acd0f3](https://github.com/big-unibo/project-template/commit/5acd0f3316891949fb207d0bcb9eae12c1bbbdf4))
+* **deps:** update dependency ubuntu to v24 ([c5021ef](https://github.com/big-unibo/project-template/commit/c5021ef1276196d6af85894e73a5bad68ac668e6))
+
 ## [1.0.41](https://github.com/big-unibo/project-template/compare/1.0.40...1.0.41) (2024-09-25)
 
 ### Bug Fixes
