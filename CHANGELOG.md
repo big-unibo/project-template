@@ -1,3 +1,18 @@
+## [1.0.43](https://github.com/big-unibo/project-template/compare/1.0.42...1.0.43) (2024-10-18)
+
+### Dependency updates
+
+* **deps:** update dependency numpy to v2.1.2 ([5cac073](https://github.com/big-unibo/project-template/commit/5cac073aeebac6de19a4165c33d8edf8e9026768))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.111 ([63f6b7f](https://github.com/big-unibo/project-template/commit/63f6b7f8399769a860f995b7968e050f9a33f5cf))
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.hadoop:hadoop-hdfs to v3.4.1 ([1a2c8c9](https://github.com/big-unibo/project-template/commit/1a2c8c912185851d8f5cbb09ac45ce5a7f0cfde2))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.2.1 ([23f8937](https://github.com/big-unibo/project-template/commit/23f8937a68364d7f98cd495344b81cf7680f9698))
+
 ## [1.0.42](https://github.com/big-unibo/project-template/compare/1.0.41...1.0.42) (2024-10-04)
 
 ### Dependency updates
