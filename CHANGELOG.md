@@ -1,3 +1,33 @@
+## [1.0.45](https://github.com/big-unibo/project-template/compare/1.0.44...1.0.45) (2024-12-16)
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.10.0 ([#442](https://github.com/big-unibo/project-template/issues/442)) ([e216611](https://github.com/big-unibo/project-template/commit/e216611bcb45f07bc9b9871d34820b3fd8e3079b))
+* **deps:** update dependency matplotlib to v3.9.3 ([#434](https://github.com/big-unibo/project-template/issues/434)) ([2559090](https://github.com/big-unibo/project-template/commit/2559090fae59efb5ab8c343a1b3fad74fbdbaa83))
+* **deps:** update dependency matplotlib to v3.9.4 ([#441](https://github.com/big-unibo/project-template/issues/441)) ([cdf01e9](https://github.com/big-unibo/project-template/commit/cdf01e914e4ce8565d39df7546ed0e86213e2d2e))
+* **deps:** update dependency notebook to v7.3.0 ([#436](https://github.com/big-unibo/project-template/issues/436)) ([7e87fff](https://github.com/big-unibo/project-template/commit/7e87fff33fa578b398a989eb5b0862e678eedded))
+* **deps:** update dependency notebook to v7.3.1 ([#437](https://github.com/big-unibo/project-template/issues/437)) ([091ee52](https://github.com/big-unibo/project-template/commit/091ee52dc85b772f0b05709270ccb1821d654975))
+* **deps:** update dependency numpy to v2.1.3 ([f0c03f0](https://github.com/big-unibo/project-template/commit/f0c03f0ec42e6401c5c108e619233c78a91f7ba6))
+* **deps:** update dependency numpy to v2.2.0 ([#439](https://github.com/big-unibo/project-template/issues/439)) ([3cdee56](https://github.com/big-unibo/project-template/commit/3cdee56b199705352ad6ca43066399d92f464091))
+* **deps:** update dependency scikit-learn to v1.6.0 ([#440](https://github.com/big-unibo/project-template/issues/440)) ([b6f42a6](https://github.com/big-unibo/project-template/commit/b6f42a6ff83109073f3b7bd88d4d1647dfeeeac7))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.112 ([790117f](https://github.com/big-unibo/project-template/commit/790117f3280b6b32094cde645a53acba467c5b28))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.113 ([fc99b96](https://github.com/big-unibo/project-template/commit/fc99b96c0fd13be2523fd9764d5a3393ccd13dea))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.114 ([687d1c7](https://github.com/big-unibo/project-template/commit/687d1c7782873384c16df0033e22ea86767fae4f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.115 ([#433](https://github.com/big-unibo/project-template/issues/433)) ([afcb3cf](https://github.com/big-unibo/project-template/commit/afcb3cf0648425634d8a4bad00c244e0904d4591))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.116 ([#438](https://github.com/big-unibo/project-template/issues/438)) ([2e6b54f](https://github.com/big-unibo/project-template/commit/2e6b54ff963454deafe7671f4a8ad297dd8945dd))
+* **deps:** update node.js to 22.12 ([#435](https://github.com/big-unibo/project-template/issues/435)) ([6504700](https://github.com/big-unibo/project-template/commit/6504700886a452438632dc4cae9c27fe57801704))
+* **deps:** update node.js to v22 ([3a2f618](https://github.com/big-unibo/project-template/commit/3a2f6185c281ed5fb43cfcf2634cc18b17e6be85))
+
+### Bug Fixes
+
+* **deps:** update junit5 monorepo to v5.11.4 ([#443](https://github.com/big-unibo/project-template/issues/443)) ([6b8847b](https://github.com/big-unibo/project-template/commit/6b8847b0e63646fa3486ad34956d6b882fe2b0b1))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.2.2 ([78d2d74](https://github.com/big-unibo/project-template/commit/78d2d7410493dbe1383956b9a3b3237b79960259))
+* **deps:** update actions/setup-java action to v4.5.0 ([2115954](https://github.com/big-unibo/project-template/commit/21159541df668a021e0d6b9ca301d13a747feabe))
+* **deps:** update actions/setup-node action to v4.1.0 ([97146e1](https://github.com/big-unibo/project-template/commit/97146e124636644afc8f3f7d855e6e8a3213ce03))
+
 ## [1.0.44](https://github.com/big-unibo/project-template/compare/1.0.43...1.0.44) (2024-10-21)
 
 ### Bug Fixes
