@@ -5,6 +5,7 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '7.1.2'
     id 'checkstyle'
     id 'com.github.alisiikh.scalastyle' version '3.5.0'
+    id 'org.jetbrains.kotlin.jvm' version '1.7.10'
 }
 
 test {
@@ -80,6 +81,8 @@ dependencies {
     // implementation "org.apache.spark:spark-sql_2.11:2.4.0-cdh6.2.0"
     // implementation "org.apache.spark:spark-hive_2.11:2.4.0-cdh6.2.0"
     // implementation "org.apache.spark:spark-mllib_2.11:2.4.0-cdh6.2.0"
+
+    testImplementation 'org.jetbrains.kotlin:kotlin-test'
 }
 
 test {
