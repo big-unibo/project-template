@@ -5,7 +5,7 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '7.1.2'
     id 'checkstyle'
     id 'com.github.alisiikh.scalastyle' version '3.5.0'
-    id 'org.jetbrains.kotlin.jvm' version '1.7.22'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.25'
 }
 
 test {
