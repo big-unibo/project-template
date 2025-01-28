@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Assertions.*
 import kotlin.test.Test
 
-class SampleTest {
+class TestKotlin {
 
     @Test
     fun testSum() {
