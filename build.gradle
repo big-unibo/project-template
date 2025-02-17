@@ -48,7 +48,7 @@ idea {
 dependencies {
     implementation 'com.google.guava:guava:33.4.0-jre'
     implementation 'org.scala-lang:scala-library:2.11.12'
-    implementation 'org.scala-lang:scala-reflect:2.11.12'
+    implementation 'org.scala-lang:scala-reflect:2.13.16'
     implementation 'org.scala-lang:scala-compiler:2.11.12'
     implementation 'org.slf4j:slf4j-api:2.0.16'
     testCompileOnly 'org.slf4j:slf4j-simple:2.0.16'
