@@ -1,3 +1,26 @@
+## [1.0.48](https://github.com/big-unibo/project-template/compare/1.0.47...1.0.48) (2025-02-25)
+
+### Dependency updates
+
+* **deps:** update dependency numpy to v2.2.3 ([#466](https://github.com/big-unibo/project-template/issues/466)) ([b66115d](https://github.com/big-unibo/project-template/commit/b66115d4021b7e0575a02b043117ebe8183eb5b1))
+* **deps:** update dependency scipy to v1.15.2 ([#468](https://github.com/big-unibo/project-template/issues/468)) ([e551039](https://github.com/big-unibo/project-template/commit/e55103963ada739292fdae46653abaa576e79984))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.121 ([#462](https://github.com/big-unibo/project-template/issues/462)) ([1adf7f0](https://github.com/big-unibo/project-template/commit/1adf7f0cd87c6bc50251722640011a11634b3d96))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.122 ([#463](https://github.com/big-unibo/project-template/issues/463)) ([9578b11](https://github.com/big-unibo/project-template/commit/9578b11256ecc37491912ddab792d9ecf2560bc9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.123 ([#465](https://github.com/big-unibo/project-template/issues/465)) ([8125670](https://github.com/big-unibo/project-template/commit/81256704aa9119faff4de2b83e7fd5d611680812))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.124 ([#467](https://github.com/big-unibo/project-template/issues/467)) ([c16e373](https://github.com/big-unibo/project-template/commit/c16e3733788e8a2154504ffd50d6e934a217b209))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.125 ([#469](https://github.com/big-unibo/project-template/issues/469)) ([55aafca](https://github.com/big-unibo/project-template/commit/55aafcaa8e4d23da6af4bc05ccf0bb2f1263f11b))
+* **deps:** update node.js to 22.14 ([#464](https://github.com/big-unibo/project-template/issues/464)) ([f2f9a76](https://github.com/big-unibo/project-template/commit/f2f9a76f3f7ab5430ec896617ff06d2d0d09a55d))
+* **deps:** update plugin org.jetbrains.kotlin.jvm to v1.7.22 ([#458](https://github.com/big-unibo/project-template/issues/458)) ([442c263](https://github.com/big-unibo/project-template/commit/442c2632336dff1cb4e75158e32ef690046c10bc))
+* **deps:** update plugin org.jetbrains.kotlin.jvm to v1.9.25 ([#459](https://github.com/big-unibo/project-template/issues/459)) ([d38903d](https://github.com/big-unibo/project-template/commit/d38903d17e4b6d582b8aa5c10a3f6142038e349d))
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.17 ([#471](https://github.com/big-unibo/project-template/issues/471)) ([0512d48](https://github.com/big-unibo/project-template/commit/0512d48e6870b1dc26cd7dafc63a64e663db94f4))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-java action to v4.7.0 ([#461](https://github.com/big-unibo/project-template/issues/461)) ([a4c8ba0](https://github.com/big-unibo/project-template/commit/a4c8ba055a68f3de88c9abd61d71afad56475a29))
+
 ## [1.0.47](https://github.com/big-unibo/project-template/compare/1.0.46...1.0.47) (2025-01-28)
 
 ### Dependency updates
