@@ -1,3 +1,20 @@
+## [1.0.49](https://github.com/big-unibo/project-template/compare/1.0.48...1.0.49) (2025-03-20)
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.10.1 ([#472](https://github.com/big-unibo/project-template/issues/472)) ([4c9c3b6](https://github.com/big-unibo/project-template/commit/4c9c3b6f29afac7ba2f96fbab1c68d8c9790c1fe))
+* **deps:** update dependency notebook to v7.3.3 ([#474](https://github.com/big-unibo/project-template/issues/474)) ([90dc162](https://github.com/big-unibo/project-template/commit/90dc162994f91436e68f1cc0bb0815f3a6126e5a))
+* **deps:** update dependency numpy to v2.2.4 ([#475](https://github.com/big-unibo/project-template/issues/475)) ([eb252e2](https://github.com/big-unibo/project-template/commit/eb252e2fa9f10bf493b800110d3773475f6feab9))
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33.4.5-jre ([#477](https://github.com/big-unibo/project-template/issues/477)) ([c5d5d6b](https://github.com/big-unibo/project-template/commit/c5d5d6b49d872739eb5243811aea43062db34797))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.3.0 ([#476](https://github.com/big-unibo/project-template/issues/476)) ([f623447](https://github.com/big-unibo/project-template/commit/f623447220b3102d9097bb7847cda5c3d6e619c6))
+* **deps:** update dependency python to 3.13 ([#473](https://github.com/big-unibo/project-template/issues/473)) ([c681118](https://github.com/big-unibo/project-template/commit/c681118ce06b425e94ae8fd3818fb074888fa621))
+
 ## [1.0.48](https://github.com/big-unibo/project-template/compare/1.0.47...1.0.48) (2025-02-25)
 
 ### Dependency updates
