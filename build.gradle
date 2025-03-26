@@ -46,7 +46,7 @@ idea {
 }
 
 dependencies {
-    implementation 'com.google.guava:guava:33.4.5-jre'
+    implementation 'com.google.guava:guava:33.4.6-jre'
     implementation 'org.scala-lang:scala-library:2.11.12'
     implementation 'org.scala-lang:scala-reflect:2.11.12'
     implementation 'org.scala-lang:scala-compiler:2.11.12'
