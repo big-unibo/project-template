@@ -1,3 +1,9 @@
+## [1.0.51](https://github.com/big-unibo/project-template/compare/1.0.50...1.0.51) (2025-04-08)
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33.4.7-android ([#479](https://github.com/big-unibo/project-template/issues/479)) ([f7a8d09](https://github.com/big-unibo/project-template/commit/f7a8d0980301b833b2a6c471555f04b139350ee2))
+
 ## [1.0.50](https://github.com/big-unibo/project-template/compare/1.0.49...1.0.50) (2025-03-26)
 
 ### Bug Fixes
