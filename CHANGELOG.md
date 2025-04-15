@@ -1,3 +1,17 @@
+## [1.0.53](https://github.com/big-unibo/project-template/compare/1.0.52...1.0.53) (2025-04-15)
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v7.4.0 ([#482](https://github.com/big-unibo/project-template/issues/482)) ([005a5a6](https://github.com/big-unibo/project-template/commit/005a5a6c9a82bd3c69155a5d38f0ecf32a78828f))
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33.4.8-jre ([#484](https://github.com/big-unibo/project-template/issues/484)) ([0fd8645](https://github.com/big-unibo/project-template/commit/0fd86453fd3da8a2871b0aaab29a58fa5515c765))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.4.0 ([#483](https://github.com/big-unibo/project-template/issues/483)) ([04b4b0d](https://github.com/big-unibo/project-template/commit/04b4b0d16293bc23e2ab3979a0d2c7b4c58474ee))
+
 ## [1.0.52](https://github.com/big-unibo/project-template/compare/1.0.51...1.0.52) (2025-04-09)
 
 ### Bug Fixes
