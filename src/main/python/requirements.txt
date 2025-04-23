@@ -2,6 +2,6 @@ numpy==2.2.5
 pandas==2.2.3
 scikit-learn==1.6.1
 scipy==1.15.2
-notebook==7.4.0
+notebook==7.4.1
 matplotlib==3.10.1
 seaborn==0.13.2
