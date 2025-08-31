@@ -1,3 +1,56 @@
+## [1.0.54](https://github.com/big-unibo/project-template/compare/1.0.53...1.0.54) (2025-08-31)
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.10.3 ([#492](https://github.com/big-unibo/project-template/issues/492)) ([1432722](https://github.com/big-unibo/project-template/commit/143272204b67c5b47ffe3c88f3bea36bbd75fb9d))
+* **deps:** update dependency matplotlib to v3.10.5 ([#520](https://github.com/big-unibo/project-template/issues/520)) ([036a1a0](https://github.com/big-unibo/project-template/commit/036a1a09d6895b3448ada2b4b2f165b37dc6a1fa))
+* **deps:** update dependency notebook to v7.4.1 ([#486](https://github.com/big-unibo/project-template/issues/486)) ([8637d4d](https://github.com/big-unibo/project-template/commit/8637d4df25541461105546138d400b93c7ed7f1f))
+* **deps:** update dependency notebook to v7.4.2 ([#490](https://github.com/big-unibo/project-template/issues/490)) ([430c93f](https://github.com/big-unibo/project-template/commit/430c93f1afe19defc3c238655a39e5fc3dfb6b96))
+* **deps:** update dependency notebook to v7.4.3 ([#498](https://github.com/big-unibo/project-template/issues/498)) ([66fe04f](https://github.com/big-unibo/project-template/commit/66fe04f1e52772b171696f7555c1a160c427a584))
+* **deps:** update dependency notebook to v7.4.4 ([#511](https://github.com/big-unibo/project-template/issues/511)) ([7624943](https://github.com/big-unibo/project-template/commit/7624943e731d1b231b6b5555ef3409ec8a9ecf7b))
+* **deps:** update dependency notebook to v7.4.5 ([#524](https://github.com/big-unibo/project-template/issues/524)) ([3e85e68](https://github.com/big-unibo/project-template/commit/3e85e6894130fb7d356f765aa23d80d70d139ca4))
+* **deps:** update dependency numpy to v2.2.5 ([#485](https://github.com/big-unibo/project-template/issues/485)) ([895c876](https://github.com/big-unibo/project-template/commit/895c87693d94afe11eb670babff0e94273086c80))
+* **deps:** update dependency numpy to v2.2.6 ([#494](https://github.com/big-unibo/project-template/issues/494)) ([6492ab8](https://github.com/big-unibo/project-template/commit/6492ab8079a79af6a9277aa08563e577ef7aec4c))
+* **deps:** update dependency numpy to v2.3.0 ([#503](https://github.com/big-unibo/project-template/issues/503)) ([1de46ac](https://github.com/big-unibo/project-template/commit/1de46ac01c5b7a1e2f2c5881fd315a9d5bf2dd25))
+* **deps:** update dependency numpy to v2.3.1 ([#504](https://github.com/big-unibo/project-template/issues/504)) ([03c04ed](https://github.com/big-unibo/project-template/commit/03c04ed733873bebdeb44cb757f56ce5a3e486e1))
+* **deps:** update dependency numpy to v2.3.2 ([#518](https://github.com/big-unibo/project-template/issues/518)) ([87d5d99](https://github.com/big-unibo/project-template/commit/87d5d9925632e6b718f7d45c79fc3fcf91108ee0))
+* **deps:** update dependency pandas to v2.3.0 ([#501](https://github.com/big-unibo/project-template/issues/501)) ([5cabd2f](https://github.com/big-unibo/project-template/commit/5cabd2ff91c7c0b35d60ae7d8152d9c26c2f71a6))
+* **deps:** update dependency pandas to v2.3.1 ([#514](https://github.com/big-unibo/project-template/issues/514)) ([2a629ce](https://github.com/big-unibo/project-template/commit/2a629cee18a7beea751d48fc771695cb77ab7fba))
+* **deps:** update dependency pandas to v2.3.2 ([#529](https://github.com/big-unibo/project-template/issues/529)) ([dec349b](https://github.com/big-unibo/project-template/commit/dec349be38f92c01825d4f42cb2712d4d17b0a70))
+* **deps:** update dependency scikit-learn to v1.7.0 ([#502](https://github.com/big-unibo/project-template/issues/502)) ([81478c6](https://github.com/big-unibo/project-template/commit/81478c6809c8bc0144a0fabaa01d968de8085c45))
+* **deps:** update dependency scikit-learn to v1.7.1 ([#517](https://github.com/big-unibo/project-template/issues/517)) ([387de94](https://github.com/big-unibo/project-template/commit/387de94e4f29d17b93a1e23b0976b06e1da85a3c))
+* **deps:** update dependency scipy to v1.15.3 ([#491](https://github.com/big-unibo/project-template/issues/491)) ([c73f228](https://github.com/big-unibo/project-template/commit/c73f228714b4171f3049c959e43b545df8884d01))
+* **deps:** update dependency scipy to v1.16.0 ([#505](https://github.com/big-unibo/project-template/issues/505)) ([ba03e0e](https://github.com/big-unibo/project-template/commit/ba03e0e74ade855093901ba968327d0f6aa88a64))
+* **deps:** update dependency scipy to v1.16.1 ([#519](https://github.com/big-unibo/project-template/issues/519)) ([30af865](https://github.com/big-unibo/project-template/commit/30af865f04d9c39aec1e2ff4a72be25ab8ddd8eb))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.126 ([#488](https://github.com/big-unibo/project-template/issues/488)) ([9abcfcb](https://github.com/big-unibo/project-template/commit/9abcfcb72e7f540d3e1b48001bb6fa09179b6b6a))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.127 ([#489](https://github.com/big-unibo/project-template/issues/489)) ([30bed95](https://github.com/big-unibo/project-template/commit/30bed9590a78ccf599ade6ade050771ff4595caa))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.128 ([#493](https://github.com/big-unibo/project-template/issues/493)) ([03c59e7](https://github.com/big-unibo/project-template/commit/03c59e7ef6cac5dbd4a9c6b570720264b3ef2119))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.129 ([#495](https://github.com/big-unibo/project-template/issues/495)) ([342038f](https://github.com/big-unibo/project-template/commit/342038f91914a588b3cabc9042d175bc422e424e))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.131 ([#497](https://github.com/big-unibo/project-template/issues/497)) ([68607cf](https://github.com/big-unibo/project-template/commit/68607cf5f0dd5d62967a1e9e654b05d5623c3b8b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.132 ([#499](https://github.com/big-unibo/project-template/issues/499)) ([8b2c3dd](https://github.com/big-unibo/project-template/commit/8b2c3dd58ea7829ae434e2c9856081dabcf726c6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.133 ([#500](https://github.com/big-unibo/project-template/issues/500)) ([3df43ad](https://github.com/big-unibo/project-template/commit/3df43adc65474e7d15755b4a11a15a6926e2bfc4))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.134 ([#509](https://github.com/big-unibo/project-template/issues/509)) ([8ef2b0e](https://github.com/big-unibo/project-template/commit/8ef2b0e6645965308d006db572ae8eeaaa351c37))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.135 ([#510](https://github.com/big-unibo/project-template/issues/510)) ([8e79aaf](https://github.com/big-unibo/project-template/commit/8e79aaf1c2c0c906aa004c3b5c825d391b353cca))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.136 ([#513](https://github.com/big-unibo/project-template/issues/513)) ([368cd5d](https://github.com/big-unibo/project-template/commit/368cd5da9864d6756afd80032a3476c135055236))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.137 ([#515](https://github.com/big-unibo/project-template/issues/515)) ([399905c](https://github.com/big-unibo/project-template/commit/399905ca9b6a711820588e01d429407e2d29d4d3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.138 ([#516](https://github.com/big-unibo/project-template/issues/516)) ([c5dfc36](https://github.com/big-unibo/project-template/commit/c5dfc36fa3fe1e52c2150510b4e98e3edf4bd767))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.139 ([#523](https://github.com/big-unibo/project-template/issues/523)) ([16ca3e3](https://github.com/big-unibo/project-template/commit/16ca3e33320c133f853c37caa6427b8692d9fb02))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.140 ([#527](https://github.com/big-unibo/project-template/issues/527)) ([1d64b19](https://github.com/big-unibo/project-template/commit/1d64b19b16dae702db2959c82887f8f42c8b1ec1))
+* **deps:** update node.js to 22.15 ([#487](https://github.com/big-unibo/project-template/issues/487)) ([1b10cdb](https://github.com/big-unibo/project-template/commit/1b10cdb3167562b6b2e2a141abcf8dbc006c9490))
+* **deps:** update node.js to 22.16 ([#496](https://github.com/big-unibo/project-template/issues/496)) ([afdb602](https://github.com/big-unibo/project-template/commit/afdb602b776a7bb1df694950c4f833f688f52671))
+* **deps:** update node.js to 22.17 ([#508](https://github.com/big-unibo/project-template/issues/508)) ([a3bbd44](https://github.com/big-unibo/project-template/commit/a3bbd44127ef3398e2901dfdaff9ec918770d9be))
+* **deps:** update node.js to 22.18 ([#521](https://github.com/big-unibo/project-template/issues/521)) ([fedb1fd](https://github.com/big-unibo/project-template/commit/fedb1fd4ddf70aefad846e5407d918760bbe79ed))
+
+### Bug Fixes
+
+* **deps:** update dependency org.apache.hadoop:hadoop-hdfs to v3.4.2 ([#530](https://github.com/big-unibo/project-template/issues/530)) ([296d8ce](https://github.com/big-unibo/project-template/commit/296d8ce1dca9332ace15cb9cae91b6718469d9cd))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.3.0 ([#525](https://github.com/big-unibo/project-template/issues/525)) ([11ae764](https://github.com/big-unibo/project-template/commit/11ae76435280705013c6167df233b84236a72068))
+* **deps:** update actions/checkout action to v5 ([#526](https://github.com/big-unibo/project-template/issues/526)) ([58f42db](https://github.com/big-unibo/project-template/commit/58f42dbb5f626cc87f4f5d77152593813436c843))
+* **deps:** update actions/setup-java action to v5 ([#528](https://github.com/big-unibo/project-template/issues/528)) ([7925529](https://github.com/big-unibo/project-template/commit/7925529ad1072f6b99a1d900094b85fe4d721bfc))
+
 ## [1.0.53](https://github.com/big-unibo/project-template/compare/1.0.52...1.0.53) (2025-04-15)
 
 ### Dependency updates
