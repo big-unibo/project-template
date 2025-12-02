@@ -12,7 +12,7 @@ jobs:
   launch-linux:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v6.0.0
+      - uses: actions/checkout@v6.0.1
       - uses: actions/setup-python@v6
         with:
           python-version: '3.14'
@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v6.0.0
+        uses: actions/checkout@v6.0.1
       - name: Install Node
         uses: actions/setup-node@v6.0.0
         with:
