@@ -1,3 +1,20 @@
+## [1.0.57](https://github.com/big-unibo/project-template/compare/1.0.56...1.0.57) (2026-04-16)
+
+### Dependency updates
+
+* **deps:** update dependency notebook to v7.5.5 ([#591](https://github.com/big-unibo/project-template/issues/591)) ([0fa532e](https://github.com/big-unibo/project-template/commit/0fa532e5b307aa67abb29599c5e4f4b510bb107e))
+* **deps:** update dependency numpy to v2.4.3 ([#590](https://github.com/big-unibo/project-template/issues/590)) ([6e82019](https://github.com/big-unibo/project-template/commit/6e82019c7e6e6bd0e5df74ed81d1ca357cdc06ba))
+* **deps:** update dependency numpy to v2.4.4 ([#592](https://github.com/big-unibo/project-template/issues/592)) ([30c50c1](https://github.com/big-unibo/project-template/commit/30c50c1f40fe159e6d5a48c7da06f304f22e2e38))
+* **deps:** update node.js to 24.14 ([#587](https://github.com/big-unibo/project-template/issues/587)) ([9b6077f](https://github.com/big-unibo/project-template/commit/9b6077f96d9a96d41d8e950c2a5cf85d67f8e064))
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.guava:guava to v33.6.0-jre ([#594](https://github.com/big-unibo/project-template/issues/594)) ([3270f8c](https://github.com/big-unibo/project-template/commit/3270f8c561876245d7b575eb3a3c46f56edce6f7))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v6.3.0 ([#589](https://github.com/big-unibo/project-template/issues/589)) ([ea1ab56](https://github.com/big-unibo/project-template/commit/ea1ab5679f42df68173f29e7cfd52e6ac078cd1c))
+
 ## [1.0.56](https://github.com/big-unibo/project-template/compare/1.0.55...1.0.56) (2026-02-25)
 
 ### Dependency updates
