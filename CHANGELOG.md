@@ -1,3 +1,19 @@
+## [1.0.58](https://github.com/big-unibo/project-template/compare/1.0.57...1.0.58) (2026-05-13)
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.10.9 ([#597](https://github.com/big-unibo/project-template/issues/597)) ([e475589](https://github.com/big-unibo/project-template/commit/e475589fe97ff3f72f56cc7586f7c30a81ba7ef7))
+* **deps:** update dependency notebook to v7.5.6 [security] ([#599](https://github.com/big-unibo/project-template/issues/599)) ([ccc6e9f](https://github.com/big-unibo/project-template/commit/ccc6e9f559f765c4d14d5bc9c8a86bc0c08a8015))
+* **deps:** update node.js to 24.15 ([#595](https://github.com/big-unibo/project-template/issues/595)) ([677bfb1](https://github.com/big-unibo/project-template/commit/677bfb13fef52458ad572b6ec28bb967e1deb6d0))
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.18 ([#600](https://github.com/big-unibo/project-template/issues/600)) ([4244a20](https://github.com/big-unibo/project-template/commit/4244a20ada092537e14dacd242b7b2bace276793))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v6.4.0 ([#596](https://github.com/big-unibo/project-template/issues/596)) ([cfc30ac](https://github.com/big-unibo/project-template/commit/cfc30ac41dc9136e87da214d0bbd0e33d753db42))
+
 ## [1.0.57](https://github.com/big-unibo/project-template/compare/1.0.56...1.0.57) (2026-04-16)
 
 ### Dependency updates
