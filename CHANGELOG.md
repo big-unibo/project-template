@@ -1,3 +1,14 @@
+## [1.0.61](https://github.com/big-unibo/project-template/compare/1.0.60...1.0.61) (2026-09-04)
+
+### Dependency updates
+
+* **deps:** update dependency scipy to v1.18.1 ([#635](https://github.com/big-unibo/project-template/issues/635)) ([d7ddce7](https://github.com/big-unibo/project-template/commit/d7ddce7a8a6093bc27a1cd9fc675a14a00d0a89d))
+* **deps:** update node.js to 24.20 ([#637](https://github.com/big-unibo/project-template/issues/637)) ([240830a](https://github.com/big-unibo/project-template/commit/240830a9fbb4ab40fd0e5fa97f68fc350119c505))
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.19 ([#638](https://github.com/big-unibo/project-template/issues/638)) ([8bd1dff](https://github.com/big-unibo/project-template/commit/8bd1dff2158dc974ccf2293f3c64880ebc21f7d4))
+
 ## [1.0.60](https://github.com/big-unibo/project-template/compare/1.0.59...1.0.60) (2026-08-18)
 
 ### Bug Fixes
