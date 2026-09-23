@@ -1,3 +1,22 @@
+## [1.0.62](https://github.com/big-unibo/project-template/compare/1.0.61...1.0.62) (2026-09-23)
+
+### Dependency updates
+
+* **deps:** update dependency matplotlib to v3.11.2 ([#643](https://github.com/big-unibo/project-template/issues/643)) ([73c5250](https://github.com/big-unibo/project-template/commit/73c5250127e0cddae70109d23b174b53707764a3))
+* **deps:** update dependency notebook to v7.6.3 ([#650](https://github.com/big-unibo/project-template/issues/650)) ([e1c2766](https://github.com/big-unibo/project-template/commit/e1c2766fc2ee3ff4ac5d0939f3389c19ae2e444d))
+* **deps:** update dependency numpy to v2.5.3 ([#639](https://github.com/big-unibo/project-template/issues/639)) ([2200953](https://github.com/big-unibo/project-template/commit/2200953668a9e9ba462b4fda3ba6e43a3a5acc6a))
+* **deps:** update dependency scikit-learn to v1.9.1 ([#642](https://github.com/big-unibo/project-template/issues/642)) ([3c80073](https://github.com/big-unibo/project-template/commit/3c800734d24ea6963b95ea1cb6b75b0f1d88d780))
+* **deps:** update node.js to 24.21 ([#641](https://github.com/big-unibo/project-template/issues/641)) ([b2df28a](https://github.com/big-unibo/project-template/commit/b2df28a829baaad02343ea8e702825bd86254de7))
+
+### Bug Fixes
+
+* **deps:** update slf4j monorepo to v2.0.20 ([#651](https://github.com/big-unibo/project-template/issues/651)) ([cd87a63](https://github.com/big-unibo/project-template/commit/cd87a631f876dcddb55658653aa74de3b742c080))
+
+### Build and continuous integration
+
+* **deps:** update dependency java-jdk to v8.0.504+1 ([#644](https://github.com/big-unibo/project-template/issues/644)) ([d07317e](https://github.com/big-unibo/project-template/commit/d07317e1bba85acae13097bdce8af3b343d13abe))
+* **deps:** update dependency ubuntu to v26 ([#649](https://github.com/big-unibo/project-template/issues/649)) ([2e0c221](https://github.com/big-unibo/project-template/commit/2e0c221e5cee2de7c1cef64726fcc8a74cd17292))
+
 ## [1.0.61](https://github.com/big-unibo/project-template/compare/1.0.60...1.0.61) (2026-09-04)
 
 ### Dependency updates
